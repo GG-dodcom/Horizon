@@ -1,8 +1,9 @@
 name: Daily Horizon Summary
 
 on:
-  # schedule:
-  #   - cron: '0 0 */2 * *'  # Runs every 2 days at 00:00 UTC
+  schedule:
+    # 22:00 UTC = 06:00 next-day in UTC+8 (Asia). Adjust cron if user TZ differs.
+    - cron: '0 22 * * *'
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
@@ -26,14 +27,20 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Inject Telegram chat ID into config
+        # chat_id is not sensitive, but storing it as a GH secret keeps the
+        # committed config.json clean and re-usable across forks.
+        env:
+          TG_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID_HORIZON }}
+        run: |
+          jq --arg cid "$TG_CHAT_ID" '.webhook.request_body.chat_id = $cid' data/config.json > /tmp/c.json
+          mv /tmp/c.json data/config.json
+          jq '.webhook.request_body.chat_id' data/config.json
+
       - name: Run Horizon
         env:
-          # Map secrets to environment variables expected by config.json
-          # Modify these based on your config.json provider settings
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          LWN_KEY: ${{ secrets.LWN_KEY }}
+          GOOGLE_API_KEY:               ${{ secrets.GOOGLE_API_KEY }}
+          TELEGRAM_WEBHOOK_URL_HORIZON: ${{ secrets.TELEGRAM_WEBHOOK_URL_HORIZON }}
         run: uv run horizon --hours 48
 
       - name: Set current date as environment variable
