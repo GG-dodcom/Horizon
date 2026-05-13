@@ -60,20 +60,6 @@
     "time_window_hours": 24
   },
   "webhook": {
-    "enabled": true,
-    "url_env": "TELEGRAM_WEBHOOK_URL_HORIZON",
-    "delivery": "summary",
-    "overview_position": "first",
-    "platform": "generic",
-    "layout": "markdown",
-    "fallback_layout": "markdown",
-    "languages": ["zh"],
-    "request_body": {
-      "chat_id": "",
-      "text": "#{summary?limit=3800&split=\n\n}",
-      "parse_mode": "Markdown",
-      "disable_web_page_preview": true
-    },
-    "headers": ""
+    "enabled": false
   }
 }
