@@ -111,7 +111,17 @@ def build_message(items: list[tuple[int, str, int, float]], page_url: str, date_
             f'{rank}. <a href="{escape(item_url, quote=True)}">{escape(title)}</a>  ⭐️ <b>{score:.1f}</b>'
         )
 
-    msg = "\n".join([header, ""] + rendered + ["", footer])
+    def assemble(items_subset: list[str], more_note: str = "") -> str:
+        # Items separated by a blank line (\n\n) for breathing room — Chinese
+        # titles wrap on phone widths, so a stacked dense list was hard to read.
+        body = "\n\n".join(items_subset)
+        sections = [header, body]
+        if more_note:
+            sections.append(more_note)
+        sections.append(footer)
+        return "\n\n".join(sections)
+
+    msg = assemble(rendered)
     if len(msg) <= TG_LIMIT:
         return msg
 
@@ -119,11 +129,7 @@ def build_message(items: list[tuple[int, str, int, float]], page_url: str, date_
     while truncated:
         truncated.pop()
         more = len(rendered) - len(truncated)
-        candidate = "\n".join(
-            [header, ""]
-            + truncated
-            + [f"… (剩余 {more} 条,点上方链接看完整列表)", "", footer]
-        )
+        candidate = assemble(truncated, f"… (剩余 {more} 条,点下方链接看完整列表)")
         if len(candidate) <= TG_LIMIT:
             return candidate
     return f"{header}\n\n(could not parse TOC)\n\n{footer}"
