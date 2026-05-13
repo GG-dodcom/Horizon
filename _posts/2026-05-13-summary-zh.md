@@ -5,213 +5,97 @@ date: 2026-05-13
 lang: zh
 ---
 
-> From 112 items, 30 important content pieces were selected
+> From 110 items, 29 important content pieces were selected
 
 ---
 
-1. [CERT 发布六个关于 dnsmasq 关键漏洞的 CVE](#item-1) ⭐️ 9.0/10
-2. [OrcaSlicer 分支恢复 BambuNetwork 支持](#item-2) ⭐️ 8.0/10
-3. [Elevator：无启发式的确定性二进制翻译](#item-3) ⭐️ 8.0/10
-4. [Googlebook：搭载 Gemini AI 的安卓笔记本电脑引发热议](#item-4) ⭐️ 8.0/10
-5. [Needle：从 Gemini 蒸馏出的 2600 万参数工具调用模型](#item-5) ⭐️ 8.0/10
-6. [复制 Linux 内核优化导致 QUIC 性能漏洞](#item-6) ⭐️ 8.0/10
-7. [用光线步进渲染逼真的天空](#item-7) ⭐️ 8.0/10
-8. [Quack：DuckDB 的新客户端-服务器协议](#item-8) ⭐️ 8.0/10
-9. [欧洲政府域名大规模安全审计](#item-9) ⭐️ 8.0/10
-10. [Obsidian 推出自动化插件审查系统](#item-10) ⭐️ 8.0/10
-11. [科布勒提出“僵尸互联网”概念](#item-11) ⭐️ 8.0/10
-12. [Shopify 的 River 代理通过公开透明进行教学](#item-12) ⭐️ 8.0/10
-13. [世界模型位列 MIT 十大 AI 关注话题](#item-13) ⭐️ 8.0/10
-14. [诺奖经济学家指出需关注的三大 AI 趋势](#item-14) ⭐️ 8.0/10
-15. [OpenAI 部署公司与苹果英特尔策略分析](#item-15) ⭐️ 8.0/10
-16. [Claude Code v2.1.139 新增代理视图和 /goal 命令](#item-16) ⭐️ 7.0/10
-17. [开发者将基础设施迁移至欧洲云服务商](#item-17) ⭐️ 7.0/10
-18. [Scrcpy v4.0 新增灵活虚拟显示屏](#item-18) ⭐️ 7.0/10
-19. [AI 鼠标指针：DeepMind 的语音驱动重新设计](#item-19) ⭐️ 7.0/10
-20. [通过沙箱 iframe 实现用户控制的 CSP 白名单](#item-20) ⭐️ 7.0/10
-21. [Mitchell Hashimoto 谈技术决策者的风险规避](#item-21) ⭐️ 7.0/10
-22. [LLM 0.32a2 增加对 OpenAI /v1/responses 端点的支持](#item-22) ⭐️ 7.0/10
-23. [GitLab 裁员与战略转型](#item-23) ⭐️ 7.0/10
-24. [James Shore 警告：AI 编程工具必须降低维护成本](#item-24) ⭐️ 7.0/10
-25. [参数高尔夫：AI 辅助模型设计的启示](#item-25) ⭐️ 7.0/10
-26. [AWS 上基础模型训练和推理的构建块](#item-26) ⭐️ 7.0/10
-27. [Varda 与 United Therapeutics 合作，将在轨道上商业生产药物](#item-27) ⭐️ 7.0/10
-28. [TechPays 被 Levels.fyi 收购以提升欧洲薪酬透明度](#item-28) ⭐️ 7.0/10
-29. [Thinking Machines 发布 TML-Interaction-Small，新一代实时语音 AI](#item-29) ⭐️ 7.0/10
-30. [AI 智能体方法 DRIL 自动化构建经济数据集](#item-30) ⭐️ 7.0/10
+1. [无启发式方法的确定性静态二进制翻译](#item-1) ⭐️ 9.6/10
+2. [GitHub 项目恢复第三方切片软件的 BambuNetwork 支持](#item-2) ⭐️ 9.2/10
+3. [DuckDB 推出 Quack：面向可扩展分析的客户端-服务器协议](#item-3) ⭐️ 9.1/10
+4. [James Shore：AI 编码代理必须大幅降低维护成本](#item-4) ⭐️ 9.1/10
+5. [Needle：从 Gemini 蒸馏出的 2600 万参数工具调用模型](#item-5) ⭐️ 9.0/10
+6. [AWS 上的基础模型训练与推理构建模块](#item-6) ⭐️ 8.9/10
+7. [Stratechery 分析：马斯克应让 SpaceXAI 专注于服务其他公司](#item-7) ⭐️ 8.9/10
+8. [Linux 空闲优化引发 QUIC 死亡螺旋](#item-8) ⭐️ 8.7/10
+9. [谷歌 DeepMind 为 Chrome 推出 AI 魔法指针](#item-9) ⭐️ 8.6/10
+10. [OpenAI 成立 40 亿美元部署公司，苹果与英特尔结盟](#item-10) ⭐️ 8.5/10
+11. [诺贝尔奖得主经济学家指出三个值得关注的 AI 趋势](#item-11) ⭐️ 8.4/10
+12. [资深开发者为何难以传达专业知识](#item-12) ⭐️ 8.2/10
+13. [dnsmasq 六个严重漏洞 CVE 发布](#item-13) ⭐️ 8.2/10
+14. [在脚本的 shebang 行中使用 LLM](#item-14) ⭐️ 8.2/10
+15. [AI 代理用 DRIL 构建经济数据集](#item-15) ⭐️ 8.1/10
+16. [Claude Code v2.1.139 新增代理视图和 /goal 命令](#item-16) ⭐️ 8.0/10
+17. [LLM 0.32a2 增加对 OpenAI /v1/responses 的支持](#item-17) ⭐️ 8.0/10
+18. [参数高尔夫揭示了 AI 辅助研究的洞见](#item-18) ⭐️ 7.8/10
+19. [开发者因 AI 抓取和中心化问题从 GitHub 迁移至自托管 Forgejo](#item-19) ⭐️ 7.7/10
+20. [僵尸互联网：AI 内容污染网络](#item-20) ⭐️ 7.7/10
+21. [Obsidian 推出新社区站点与插件审核系统](#item-21) ⭐️ 7.4/10
+22. [经济学家称数据中心促进 AI 和云计算发展](#item-22) ⭐️ 7.4/10
+23. [Claude Code v2.1.140：Bug 修复与小幅改进](#item-23) ⭐️ 7.3/10
+24. [AutoScout24 通过 AI 工作流提升工程效率](#item-24) ⭐️ 7.3/10
+25. [研究者年龄增长，颠覆性工作减少](#item-25) ⭐️ 7.2/10
+26. [Mitchell Hashimoto：技术决策者害怕被炒](#item-26) ⭐️ 7.2/10
+27. [AI 带来的就业过渡难题：非显而易见的障碍](#item-27) ⭐️ 7.1/10
+28. [用 WebGL 和光线步进渲染天空、日落和行星](#item-28) ⭐️ 7.0/10
+29. [谷歌将 Android 从 I/O 主题演讲中剥离，突出 AI 优先](#item-29) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [CERT 发布六个关于 dnsmasq 关键漏洞的 CVE](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html) ⭐️ 9.0/10
+## [无启发式方法的确定性静态二进制翻译](https://arxiv.org/abs/2605.08419) ⭐️ 9.6/10
 
-CERT 公开了六个影响 dnsmasq 的新 CVE，dnsmasq 是一款广泛使用的 DNS/DHCP 服务器，这些漏洞包括通过畸形 DNS 查询或 DHCP 请求实现远程代码执行和拒绝服务。 这些漏洞至关重要，因为 dnsmasq 嵌入在数百万设备中——路由器、物联网设备和 Android——其中许多设备很少收到安全更新，暴露了巨大的攻击面。 这些漏洞包括远程攻击者导致的堆越界写入、导致拒绝服务的无限循环，以及恶意 DHCP 请求引起的缓冲区溢出。
-
-hackernews · chizhik-pyzhik · May 12, 18:12 · [社区讨论](https://news.ycombinator.com/item?id=48112042)
-
-**背景**: Dnsmasq 是一款轻量级网络服务程序，为小型网络提供 DNS 缓存、DHCP 和路由器广播功能。它被包含在许多 Linux 发行版、家用路由器和 Android 中。这些宣布的内存安全漏洞源于 C 等缺乏自动内存保护的语言，采用 Rust 等内存安全语言越来越被推荐以降低此类风险。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Dnsmasq">Dnsmasq</a></li>
-<li><a href="https://www.cisa.gov/news-events/alerts/2025/06/24/new-guidance-released-reducing-memory-related-vulnerabilities">New Guidance Released for Reducing Memory-Related Vulnerabilities</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论强调转向内存安全语言的紧迫性，有用户称这是转折点。其他人讽刺地指出，dnsmasq 用于几乎从不更新的设备，突显了实际影响和修补的困难。
-
-**标签**: `#security`, `#dnsmasq`, `#CVE`, `#memory-safety`, `#vulnerabilities`
-
----
-
-<a id="item-2"></a>
-## [OrcaSlicer 分支恢复 BambuNetwork 支持](https://github.com/FULU-Foundation/OrcaSlicer-bambulab) ⭐️ 8.0/10
-
-一个 GitHub 仓库 (FULU-Foundation/OrcaSlicer-bambulab) 被创建，用于恢复 Bambu Lab 打印机的完整 BambuNetwork 支持，从而在争议性的固件更新后实现无限制的云端打印。 这个分支回应了社区对 Bambu Lab 固件更新的强烈不满，该更新通过要求云端认证移除了本地局域网打印功能，维护了 3D 打印社区的用户权利和开源原则。 该分支基于 OrcaSlicer，恢复通过 BambuNetwork 进行互联网打印，绕过了此前锁定第三方切片软件的新云端认证要求。
-
-hackernews · Murfalo · May 12, 21:55 · [社区讨论](https://news.ycombinator.com/item?id=48115127)
-
-**背景**: Bambu Lab 发布了一个固件更新，为本地打印增加了云端认证，实际上迫使用户使用其专有软件。这引发了 3D 打印社区的强烈反对，并催生了逆向工程工作。OrcaSlicer 是一种常用作 Bambu 打印机的开源切片软件。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/dafik/OrcaSlicer-bambulab">GitHub - dafik/OrcaSlicer-bambulab: OrcaSlicer with restored BambuNetwork support for Bambu Lab printers, with full internet access and printing just like before. · GitHub</a></li>
-<li><a href="https://github.com/unS0uL/OrcaSlicer-bambulab">GitHub - unS0uL/OrcaSlicer-bambulab: OrcaSlicer with restored BambuNetwork support for Bambu Lab printers, with full internet access and printing just like before. · GitHub</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论对固件更改表示愤怒，有些人指责 Bambu 通过移除功能进行盗窃。其他人则提供了新系统如何运作的技术分析，一些评论指出 Bambu 最初要求局域网模式也需云端认证，在遭到反对后才撤回。
-
-**标签**: `#3D-printing`, `#open-source`, `#firmware`, `#controversy`, `#reverse-engineering`
-
----
-
-<a id="item-3"></a>
-## [Elevator：无启发式的确定性二进制翻译](https://arxiv.org/abs/2605.08419) ⭐️ 8.0/10
-
-研究人员推出了 Elevator，这是首个完全静态、确定性的二进制翻译器，无需启发式或运行时回退，即可将整个 x86-64 可执行文件转换为 AArch64。 这种确定性方法消除了基于启发式的翻译中的非确定性和安全风险，使其适用于航空、医疗设备等受监管行业的认证。然而，二进制大小和功能支持（仅单线程、无异常处理）的权衡限制了其直接的实际影响。 Elevator 相比 QEMU 用户模式 JIT 实现了约 4.75 倍的运行时加速，但导致二进制大小增加 50 倍，执行指令数增加 7 倍。它仅支持单线程二进制文件，缺乏异常处理和栈展开。
+一篇新论文提出了 Elevator，这是首个无需启发式方法或运行时回退即可将整个 x86-64 二进制文件静态翻译为 AArch64 的翻译器，其性能与 QEMU 的 JIT 仿真相当。 这项工作意义重大，因为它实现了确定性翻译，生成可认证的二进制文件，这对于航空、医疗器械等受监管行业至关重要，因为这些行业因非确定性而无法接受基于 JIT 的仿真。 翻译后的代码 .text 段可能增大 50 倍，但性能与 QEMU 的用户态 JIT 相当甚至更好。Elevator 通过考虑每个字节的所有可能含义来处理间接跳转，从而避免了启发式方法。
 
 hackernews · matt_d · May 13, 04:25 · [社区讨论](https://news.ycombinator.com/item?id=48117810)
 
-**背景**: 二进制翻译将可执行代码从一种指令集架构（ISA）转换为另一种。完全静态翻译提前处理整个二进制而不执行，但必须启发式地决定哪些字节是代码还是数据，这可能引入错误。Elevator 通过考虑每个字节的所有可能解释，为每个可行的解释生成单独的翻译，然后组合成确定性输出来避免启发式。
+**背景**: 二进制翻译将可执行代码从一种指令集架构（ISA）转换为另一种。静态二进制翻译尝试在执行前翻译整个二进制文件，但传统的静态翻译器难以处理不确定的代码-数据边界和间接跳转，通常依赖启发式方法或动态回退。Elevator 通过确定性地编码所有可能的解释来克服这一问题，生成一个构造上正确的二进制文件。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://arxiv.org/abs/2605.08419">Deterministic Fully-Static Whole-Binary Translation without ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Binary_translation">Binary translation - Wikipedia</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48117810">Deterministic Fully-Static Whole-Binary Translation Without ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Static_binary_translation">Static binary translation</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出，50 倍的大小增加是确定性下合理的权衡，特别是对于认证用例。一些人讨论了性能比较，有评论者分享了以往定制 JIT 引擎的经验。还有猜测未来可能会使用启发式来减小大小，但牺牲保证，同时讨论了剩余挑战，如相对偏移。
+**社区讨论**: 社区讨论指出，50 倍的代码大小增加是确定性翻译的合理代价，而可认证性对于受监管行业尤其有价值。一些评论者也指出，处理间接跳转是一个关键挑战，Elevator 的方法优雅但代价高昂。
 
-**标签**: `#binary translation`, `#deterministic`, `#static analysis`, `#systems`, `#emulation`
+**标签**: `#binary translation`, `#static analysis`, `#compiler`, `#emulation`, `#deterministic`
 
 ---
 
-<a id="item-4"></a>
-## [Googlebook：搭载 Gemini AI 的安卓笔记本电脑引发热议](https://googlebook.google/) ⭐️ 8.0/10
+<a id="item-2"></a>
+## [GitHub 项目恢复第三方切片软件的 BambuNetwork 支持](https://github.com/FULU-Foundation/OrcaSlicer-bambulab) ⭐️ 9.2/10
 
-谷歌发布了 Googlebook，这是一款运行安卓系统并与 Gemini AI 深度集成的全新笔记本电脑品类，旨在以 AI 驱动的交互方式重新定义基于应用的计算机使用体验。 此次发布代表了谷歌通过 AI 融合移动与桌面计算的最新尝试，可能挑战传统笔记本电脑范式，并扩展 AI 助手在日常生产力中的角色。 Googlebook 基于 Android 17 桌面模式并集成 Gemini，用户可通过自然语言与数据交互，而非传统应用。但它仍保留基于应用的生态系统，这引发了对其目标受众和用户体验一致性的批评。
+一个名为 OrcaSlicer-bambulab 的 GitHub 仓库已被创建，旨在恢复 Bambu Lab 打印机的完整 BambuNetwork 支持，允许 OrcaSlicer 等第三方切片软件通过网络控制打印机。此举是对 Bambu Lab 固件更新引入授权控制系统阻止此类支持的回应。 这一发展意义重大，因为它直接挑战了 Bambu Lab 限制用户对自己打印机控制权的固件更新。这代表了社区驱动的努力，以维护 3D 打印生态系统中的开源原则和用户自主权。 该仓库是 OrcaSlicer 在 Bambu Lab 做出更改之前包含 BambuNetwork 支持的先前状态的克隆。它实现了超越局域网模式的互联网打印，绕过了新的云认证要求。
 
-hackernews · tambourine_man · May 12, 17:37 · [社区讨论](https://news.ycombinator.com/item?id=48111545)
+hackernews · Murfalo · May 12, 21:55 · [社区讨论](https://news.ycombinator.com/item?id=48115127)
 
-**背景**: Chromebook 长期以来提供基于 Chrome OS 的笔记本电脑体验，而安卓主要作为移动操作系统。Googlebook 试图通过将安卓带入笔记本电脑形态，并配以桌面界面和 AI 功能来融合两者。Gemini 是谷歌的生成式 AI 助手，能够处理文本、图像、音频和视频，并已集成到谷歌各项服务中。
+**背景**: Bambu Lab 是一家 3D 打印机制造商，最近发布了引入‘授权控制系统’的固件更新，阻止第三方软件直接控制打印机。此举引发了 3D 打印社区的强烈反对，他们认为这减少了用户控制权，违反了拥有硬件的原则。社区重视像 OrcaSlicer 这样的开源工具，它们提供了超出制造商提供软件的灵活性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gemini.google">Gemini.google</a></li>
-<li><a href="https://gemini.google/about/">Learn about Gemini, the everyday AI assistant from Google</a></li>
+<li><a href="https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/">Firmware Update Introducing New Authorization Control System</a></li>
+<li><a href="https://3dprintingindustry.com/news/bambu-lab-responds-to-backlash-over-new-firmware-update-235771/">Bambu Lab Responds to Backlash Over New Firmware Update - 3D Printing Industry</a></li>
+<li><a href="https://cybermediacreations.com/restore-full-bambunetwork-support-for-bambu-lab-printers/">Restore full BambuNetwork support for... - Cyber Media Creations</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应褒贬不一：一些人认为 Googlebook 是迈向 AI 优先、无应用未来的远见之举，称赞 Gemini 集成的潜力。另一些人则批评其用户体验，尤其是顶部面板设计，并质疑目标受众，认为安卓以应用为中心的模式限制了笔记本电脑在传统计算任务中的实用性。
+**社区讨论**: 社区评论显示了对 Bambu Lab 固件更改的强烈反对，用户将这种限制比作盗窃，并指出该公司最初甚至在局域网模式下也需要云认证，后来才撤回。一些用户还引用 Ubiquiti 等其他供应商作为更用户友好的认证方式的例子。
 
-**标签**: `#Googlebook`, `#Android`, `#AI`, `#laptops`, `#UX`
-
----
-
-<a id="item-5"></a>
-## [Needle：从 Gemini 蒸馏出的 2600 万参数工具调用模型](https://github.com/cactus-compute/needle) ⭐️ 8.0/10
-
-Cactus 开源了 Needle，一个 2600 万参数的单一工具调用模型，通过仅注意力机制架构（无 MLP）从 Gemini 蒸馏而来。在消费级设备上实现 6000 tok/s 预填充和 1200 tok/s 解码。 这表明小型专用模型在工具调用上可媲美大型模型，从而在手机、手表等边缘设备上实现端侧智能体 AI。同时挑战了 transformer 架构中 MLP 在检索与组装任务中的必要性。 该模型在 16 个 TPU v6e 上预训练 200B token（27 小时），然后通过 Gemini 合成 2B token 的函数调用数据进行后训练（45 分钟）。在单一函数调用任务上优于 FunctionGemma-270M 和 Qwen-0.6B 等更大模型，但缺乏对话广度。
-
-hackernews · HenryNdubuaku · May 12, 18:03 · [社区讨论](https://news.ycombinator.com/item?id=48111896)
-
-**背景**: 传统 transformer 模型结合注意力层和前馈网络（MLP）来学习和存储知识。Needle 完全移除了 MLP，其依据是工具调用是一种检索与组装任务，输入已包含所有必要信息，因此仅需注意力机制。TPU v6e（又称 Trillium）是谷歌最新一代 AI 加速器，针对训练和推理进行了优化。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-<li><a href="https://docs.cloud.google.com/tpu/docs/v6e">TPU v6e | Google Cloud Documentation</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论对该模型在复杂工具用例中的区分能力提出质疑，部分人指出其可用于 CLI 自然语言解析。还有人担心谷歌的反蒸馏防御可能削弱学生模型性能。一名用户建议提供在线演示，另一名用户报告独立验证了移除 MLP 的有效性。
-
-**标签**: `#tool calling`, `#model distillation`, `#small language models`, `#on-device AI`, `#function calling`
+**标签**: `#3D printing`, `#firmware`, `#DRM`, `#open source`, `#Bambu Lab`
 
 ---
 
-<a id="item-6"></a>
-## [复制 Linux 内核优化导致 QUIC 性能漏洞](https://blog.cloudflare.com/quic-death-spiral-fix/) ⭐️ 8.0/10
+<a id="item-3"></a>
+## [DuckDB 推出 Quack：面向可扩展分析的客户端-服务器协议](https://duckdb.org/2026/05/12/quack-remote-protocol) ⭐️ 9.1/10
 
-Cloudflare 工程师发现，一个 QUIC 性能漏洞源于他们将 Linux 内核的 TCP 优化（TCP Small Queues）复制到自己的 QUIC 实现中，却未纳入后续放宽限制的内核修复。 此事件凸显了将内核代码移植到用户空间网络堆栈的风险，尤其是对于依赖精确 pacing 和拥塞控制的协议如 QUIC，并强调了在分叉内核代码时需跟踪上游修复。 该漏洞导致 QUIC 连接出现“死亡螺旋”，其中 pacing 回退降低了吞吐量，且问题仅在特定网络条件下出现，如高带宽延迟乘积路径。
-
-hackernews · sbulaev · May 12, 23:46 · [社区讨论](https://news.ycombinator.com/item?id=48116064)
-
-**背景**: TCP Small Queues (TSQ)是 Linux 内核的一种机制，限制每个套接字的排队数据以减少缓冲区膨胀并改善延迟。Cloudflare 的 QUIC 实现复制了最初的 TSQ 算法，但遗漏了后来放宽限制的内核提交（75eefc6）。QUIC pacing 对于像 BBR 这样的拥塞控制算法至关重要。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://lwn.net/Articles/506237/">tcp: TCP Small Queues - LWN.net</a></li>
-<li><a href="https://lwn.net/Articles/469652/">bql: Byte Queue Limits [LWN.net]</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论指出维护分叉内核代码的自研实现的挑战，一位用户建议更准确的标题是“我们如何从 Linux 内核复制代码却未完全理解并错过了后续修复”。另一位用户质疑在数据中心使用 CUBIC，认为 BBR 可能更合适。
-
-**标签**: `#QUIC`, `#Linux kernel`, `#networking`, `#Cloudflare`, `#bug analysis`
-
----
-
-<a id="item-7"></a>
-## [用光线步进渲染逼真的天空](https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/) ⭐️ 8.0/10
-
-Maxime Heckel 发布了一篇详细的技术博客，解释了如何使用光线步进和大气散射模型，在网页浏览器中渲染逼真的天空、日落和行星。 这项工作展示了网页图形不断增长的能力，实现了以前仅限于原生应用的复杂视觉效果，并激发了实时渲染领域的进一步探索。 博客包含交互式演示，并涵盖了瑞利散射、米氏散射、米氏相位函数以及臭氧吸收等技术，以模拟逼真的天空颜色和黄昏。
-
-hackernews · ibobev · May 12, 13:26 · [社区讨论](https://news.ycombinator.com/item?id=48107997)
-
-**背景**: 光线步进是一种渲染技术，通过沿光线迭代步进穿过场景并在每一步进行采样，常用于体积效果。大气散射是指光被大气中的粒子散射的物理过程，导致蓝天和红色日落等现象。小分子的瑞利散射使天空呈现蓝色，而较大粒子的米氏散射则增加雾霾并影响日落的色调。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Ray_marching">Ray marching</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Atmospheric_scattering">Atmospheric scattering</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者赞扬了文章的深度和视觉效果（例如 baliex 称其鼓舞人心），而其他人指出了日落模型中的不准确之处（例如 gmiller123456 指出太阳落山后天空不应立即变黑）。评论中还提到了 Sebastian Lague 关于大气层的视频以及 Nishita 等人 1993 年的开创性论文。
-
-**标签**: `#computer graphics`, `#rendering`, `#web development`, `#atmospheric scattering`, `#shaders`
-
----
-
-<a id="item-8"></a>
-## [Quack：DuckDB 的新客户端-服务器协议](https://duckdb.org/2026/05/12/quack-remote-protocol) ⭐️ 8.0/10
-
-2026 年 5 月 12 日，DuckDB 宣布了 Quack，这是一个基于 HTTP 的客户端-服务器协议，实现了远程访问和并发写入，标志着 DuckDB 首次正式支持服务器模式。 Quack 解决了 DuckDB 历史上最大的限制——单用户嵌入式使用，通过支持水平扩展和基于网络的查询，为分布式分析和微服务开辟了新的用例。 根据基准测试，Quack 在批量分析方面比 PostgreSQL 快 32 倍，并且支持服务端多个并发写入者，这是 DuckDB 此前不具备的功能。
+DuckDB Labs 宣布了 Quack，一种基于 HTTP 的客户端-服务器协议，将计算与存储分离，支持多个并发写入器，并在批量分析方面比 PostgreSQL 快 32 倍。 该协议解决了 DuckDB 历史上单一写入器并发的限制，使其适用于多用户、实时数据应用和生产环境中的水平扩展。 Quack 扩展使 DuckDB 能够在网络上充当服务器和客户端，支持服务器端的多个并发写入器，解决了关键的可扩展性瓶颈。
 
 hackernews · aduffy · May 12, 17:54 · [社区讨论](https://news.ycombinator.com/item?id=48111765)
 
-**背景**: DuckDB 是一个面向分析工作负载的进程内 SQL OLAP 数据库，传统上嵌入在应用程序中，仅限于单用户访问。Quack 通过客户端-服务器协议扩展了 DuckDB，使其能够作为独立服务器运行，通过网络访问，类似于 PostgreSQL 等传统数据库，但针对分析进行了优化。
+**背景**: DuckDB 是一个嵌入式的进程内 SQL 数据库，专为分析工作负载优化，传统上是单进程单线程使用。Quack 协议通过客户端-服务器架构扩展了它，分离存储和计算，实现并发访问和可扩展性。
 
 <details><summary>参考链接</summary>
 <ul>
@@ -222,439 +106,529 @@ hackernews · aduffy · May 12, 17:54 · [社区讨论](https://news.ycombinator
 </ul>
 </details>
 
-**社区讨论**: 社区反应总体积极，用户对解决远程访问和水平扩展问题表示兴奋。一些用户对并发写入者的定义提出了技术问题，而另一些用户则欣赏实际的用例，例如在不中断服务器的情况下查询实时数据。
+**社区讨论**: 评论极为正面，用户 steve_adams_86 和 rglover 赞扬该方案解决了并发访问和水平扩展问题。一些用户如 simlevesque 对 DuckDB 不断演变的定位感到困惑，而 feverzsj 要求澄清“并发写入器”的含义，怀疑可能只是服务器端的串行写入。
 
-**标签**: `#duckdb`, `#database`, `#client-server`, `#remote protocol`, `#scalability`
+**标签**: `#DuckDB`, `#database`, `#protocol`, `#scalability`, `#open source`
+
+---
+
+<a id="item-4"></a>
+## [James Shore：AI 编码代理必须大幅降低维护成本](https://simonwillison.net/2026/May/11/james-shore/#atom-everything) ⭐️ 9.1/10
+
+James Shore 指出，人工智能编码代理必须按照其生产力提升的比例来降低维护成本。否则，它们将造成不可持续的债务，使暂时的速度提升变成永久的束缚。 这一见解挑战了常见的假设，即更快的代码生成自动带来整体效率。它突出了采用 AI 代理的软件团队面临的一个关键风险：如果生产力提升不能与成本降低相匹配，维护成本可能会激增。 Shore 使用了一个简单的乘法示例：如果输出翻倍而维护成本保持不变，那么维护成本实际上翻倍。所需的减少正好是生产力乘数的倒数（例如，2 倍生产力需要 1/2 的维护成本）。
+
+rss · Simon Willison · May 11, 19:48
+
+**背景**: 在软件工程中，维护成本（修复错误、更新依赖、重构）通常占据总拥有成本的主导地位。AI 编码代理可以显著加速代码编写，但如果它们产生的代码更难或更昂贵地维护，长期负担可能会超过短期收益。Shore 的论点呼吁 AI 工具关注可维护性，而不仅仅是速度。
+
+**标签**: `#AI coding agents`, `#maintenance costs`, `#software engineering`, `#productivity`, `#LLM`
+
+---
+
+<a id="item-5"></a>
+## [Needle：从 Gemini 蒸馏出的 2600 万参数工具调用模型](https://github.com/cactus-compute/needle) ⭐️ 9.0/10
+
+Cactus Compute 开源了 Needle，一个从 Gemini 蒸馏出的 2600 万参数模型，专为单次工具调用设计，在消费级设备上可实现每秒 6000 token 的预填充和每秒 1200 token 的解码速度。 这表明极小的模型也能高效处理工具调用，有望在手机、手表和眼镜等资源受限设备上实现智能体 AI，并挑战了大规模模型对此类任务必要的假设。 该模型采用“简单注意力网络”架构，没有前馈层，仅依赖交叉注意力和门控机制；在 200B token 上预训练，并在 Gemini 合成的 2B token 函数调用数据上进行了后训练。
+
+hackernews · HenryNdubuaku · May 12, 18:03 · [社区讨论](https://news.ycombinator.com/item?id=48111896)
+
+**背景**: 工具调用允许 LLM 通过生成结构化 JSON 输出来调用外部函数或 API。传统模型使用带有前馈层的大型 transformer 来记忆事实，而 Needle 的方法认为，对于工具使用这类检索与组装任务，仅靠交叉注意力就足够了，因为所需的知识已包含在输入上下文中。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://medium.com/@yasir_siddique/tool-calling-for-llms-a-detailed-tutorial-a2b4d78633e2">Tool Calling for LLMs: A Detailed Tutorial - Medium</a></li>
+<li><a href="https://martinuke0.github.io/posts/2026-01-07-the-anatomy-of-tool-calling-in-llms-a-deep-dive/">The Anatomy of Tool Calling in LLMs: A Deep Dive</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区成员对该模型在复杂工具使用中的辨别能力表示好奇，担忧谷歌可能对蒸馏采取反制措施，并建议托管实时演示以便测试。还有人指出，独立研究也证实了在依赖外部知识的任务中移除 MLP 层的可能性。
+
+**标签**: `#AI`, `#LLM`, `#tool calling`, `#model distillation`, `#open-source`
+
+---
+
+<a id="item-6"></a>
+## [AWS 上的基础模型训练与推理构建模块](https://huggingface.co/blog/amazon/foundation-model-building-blocks) ⭐️ 8.9/10
+
+一篇新的 Hugging Face 博文详细介绍了用于训练和部署基础模型的 AWS 构建模块及最佳实践，涵盖了 SageMaker、EKS 和 EC2 等服务。 该指南帮助 AI 从业者有效利用 AWS 服务进行基础模型工作流，可能降低成本并提高可扩展性，同时加强了 Hugging Face 与 AWS 的集成。 该博文可能涵盖用于成本高效训练和推理的 AWS Trainium 和 Inferentia 芯片，以及使用 SageMaker 进行托管训练和使用 EKS 进行编排。
+
+rss · Hugging Face Blog · May 11, 23:18
+
+**背景**: 基础模型是在海量数据集上训练的大型 AI 模型，可适应多种任务。AWS 提供了定制芯片，Trainium 用于训练，Inferentia 用于推理，以及 SageMaker 和 EKS 等服务来管理 ML 工作流。Hugging Face 是共享和部署这些模型的流行平台。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Foundation_model">Foundation model - Wikipedia</a></li>
+<li><a href="https://aws.amazon.com/ai/machine-learning/inferentia/">AI Chip - Amazon Inferentia - AWS</a></li>
+<li><a href="https://huggingface.co/docs/hub/models-the-hub">The Model Hub · Hugging Face</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AWS`, `#foundation models`, `#training`, `#inference`, `#Hugging Face`
+
+---
+
+<a id="item-7"></a>
+## [Stratechery 分析：马斯克应让 SpaceXAI 专注于服务其他公司](https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/) ⭐️ 8.9/10
+
+Ben Thompson 的分析文章认为，Anthropic 与 xAI 的交易虽然令人震惊，但具有战略逻辑，并建议 Elon Musk 让 SpaceXAI 专注于服务其他公司，而非直接竞争。 该分析为马斯克的 AI 布局提供了清晰的战略方向，可能通过将 SpaceXAI 定位为企业基础设施提供商来重塑竞争格局。 文章指出，Anthropic 与 xAI 的交易看似震惊但战略上并不意外，Thompson 特别建议马斯克强化 SpaceXAI 的企业对企业的商业模式。
+
+rss · Stratechery · May 12, 10:00
+
+**背景**: xAI 是埃隆·马斯克的人工智能公司，而 Anthropic 是一家由亚马逊和谷歌支持的竞争对手 AI 初创公司。SpaceXAI 是 SpaceX 内部可能设立的人工智能部门。Anthropic 与 xAI 近期的交易引发了关于马斯克整体 AI 战略的疑问。
+
+**标签**: `#AI`, `#Elon Musk`, `#xAI`, `#Anthropic`, `#Strategy`
+
+---
+
+<a id="item-8"></a>
+## [Linux 空闲优化引发 QUIC 死亡螺旋](https://blog.cloudflare.com/quic-death-spiral-fix/) ⭐️ 8.7/10
+
+Cloudflare 工程师发现，Linux 内核 CPU 空闲状态优化导致 QUIC 连接陷入死亡螺旋，他们通过向 quiche 实现中添加一个非平凡的测试来修复了这个问题。 这一事件表明，内核级别的节能优化可能无意中破坏像 QUIC 这样的用户空间协议，强调了跨层测试的必要性。它影响了所有在 Linux 服务器上部署 QUIC 的组织。 该漏洞涉及 CPU C-状态转换、数据包调速和 CUBIC 拥塞控制之间的交互，导致重复退避和吞吐量饥饿。Cloudflare 的修复需要仔细分析，并编写自定义测试来重现这一罕见情况。
+
+hackernews · sbulaev · May 12, 23:46 · [社区讨论](https://news.ycombinator.com/item?id=48116064)
+
+**背景**: QUIC 是一种基于 UDP 的传输层协议，专为低延迟网络通信设计，是 HTTP/3 的基础。Linux 内核空闲状态（C-状态）通过将空闲 CPU 置于低功耗模式来管理功耗，但状态转换可能引入延迟。Cloudflare 使用了名为 quiche 的自定义 QUIC 实现。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/QUIC">QUIC - Wikipedia</a></li>
+<li><a href="https://www.kernel.org/doc/html/latest/admin-guide/pm/cpuidle.html">CPU Idle Time Management — The Linux Kernel documentation</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者赞扬了测试背后的工程努力，有人指出这是对那些不愿编写复杂测试的团队的绝佳范例。另一位质疑为什么 Cloudflare 仍在使用 CUBIC 而不是 BBR，还有用户询问未定义的术语“CCA”，它代表“拥塞控制算法”。
+
+**标签**: `#Linux kernel`, `#QUIC`, `#networking`, `#debugging`, `#Cloudflare`
 
 ---
 
 <a id="item-9"></a>
-## [欧洲政府域名大规模安全审计](https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/) ⭐️ 8.0/10
+## [谷歌 DeepMind 为 Chrome 推出 AI 魔法指针](https://deepmind.google/blog/ai-pointer/) ⭐️ 8.6/10
 
-SecurityBaseline.eu 于 2026 年 5 月 13 日上线，结果显示在 67,000 个欧洲政府域名中，3,000 个站点非法使用追踪 Cookie，超过 1,000 个暴露诸如 phpMyAdmin 的数据库接口，且 99%的电子邮件加密不充分。 此次审计揭示了欧洲政府数字基础设施中严重的网络安全缺陷，危及公民隐私和国家安全。这迫使各国政府加强基准安全措施，并可能推动新法规的出台。 该项目报告详细指出，许多暴露的数据库接口无需认证即可访问，而电子邮件加密不良包括缺少或错误配置 DANE 或 MTA-STS。数据可通过 SecurityBaseline.eu 上的交互式地图获取。
+Google DeepMind 发布了一款名为 Magic Pointer 的原型 AI 增强鼠标指针，该指针集成了 Gemini AI 和语音命令，可在 Chrome 浏览器中实现上下文交互。 这一创新可能降低人机交互的门槛，使智能助手的调用更加直观和上下文感知，有望在 AI 时代重塑用户与网页内容和应用的交互方式。 Magic Pointer 是一个 Chrome 扩展程序，利用 Gemini 理解页面上下文和用户意图，通过特定鼠标手势激活；支持语音输入，但文本输入仍是备选方案，预计今年秋季作为 Googlebook 的一部分发布。
 
-hackernews · aequitas · May 13, 07:11 · [社区讨论](https://news.ycombinator.com/item?id=48118763)
+hackernews · devhouse · May 12, 17:40 · [社区讨论](https://news.ycombinator.com/item?id=48111581)
 
-**背景**: SecurityBaseline.eu 是荷兰“Basisbeveiliging”项目的衍生项目，该项目已监测基准安全超过十年。审计检查常见问题，如非法追踪 Cookie（违反电子隐私指令）、可公开访问的数据库管理工具以及电子邮件加密标准（如 DANE 和 MTA-STS）。这些都是许多组织忽视的基本安全卫生措施。
+**背景**: 传统鼠标指针仅指示位置，而 DeepMind 的 Magic Pointer 将光标转变为主动的 AI 代理，可识别 UI 元素并提供上下文操作。这延续了近期将 AI 集成到操作系统和浏览器的趋势，例如 Microsoft 的 Copilot 和 Apple 的 Intelligence 功能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/">European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly encrypted email. Introducing SecurityBaseline.eu - Internet Cleanup Foundation</a></li>
+<li><a href="https://deepmind.google/blog/ai-pointer/">Shaping the future of AI interaction by reimagining the mouse ...</a></li>
+<li><a href="https://winbuzzer.com/2026/05/13/google-deepmind-details-a-gemini-powered-mouse-poi-xcxwbn/">Google DeepMind Unveils Gemini-Enabled Mouse Pointer for Chrome</a></li>
+<li><a href="https://www.explainx.ai/blog/google-deepmind-magic-pointer-ai-cursor">Google DeepMind's Magic Pointer: The AI Cursor That ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论表达了对此前德国渗透测试法律障碍的担忧，有人指出这类扫描可能被视为违反黑客法律。其他人质疑数据准确性，指出一些被标记的站点是非政府或已废弃的，并争论 DNSSEC 着色是否过度。一条正面评论指出电子政务成熟度与安全事件之间的相关性。
+**社区讨论**: 社区反应不一：有人对语音命令持怀疑态度，担心隐私和社交尴尬，也有人认为该概念在连续 LLM 交互方面前景广阔。少数用户已开始构建类似的开源项目，此外有批评认为系统比打字更慢。
 
-**标签**: `#security`, `#privacy`, `#government`, `#europe`, `#cybersecurity`
+**标签**: `#AI`, `#human-computer interaction`, `#voice control`, `#mouse pointer`, `#DeepMind`
 
 ---
 
 <a id="item-10"></a>
-## [Obsidian 推出自动化插件审查系统](https://obsidian.md/blog/future-of-plugins/) ⭐️ 8.0/10
+## [OpenAI 成立 40 亿美元部署公司，苹果与英特尔结盟](https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/) ⭐️ 8.5/10
 
-Obsidian 宣布推出新的自动化插件审查系统，取代手动审查，旨在加快提交速度并减少开发者的挫折感。 这解决了 Obsidian 插件生态中的一个主要扩展瓶颈，之前手动提交新插件几乎不可能。这表明公司致力于在平台成长过程中支持其开发者社区。 该系统依赖自动化检查，但一些评论者担心安全问题，因为插件仍然拥有完全的磁盘和网络访问权限。CEO 提到团队已为此工作近一年，并且只有七个人。
-
-hackernews · xz18r · May 12, 15:45 · [社区讨论](https://news.ycombinator.com/item?id=48109970)
-
-**背景**: Obsidian 是一款流行的笔记应用，支持插件以扩展功能。此前，所有插件都经过手动审查，导致等待时间长和开发者沮丧，尤其是随着 AI 辅助插件创建增加提交量。
-
-**社区讨论**: 社区反应不一：许多人祝贺团队解决了瓶颈问题，但对自动化安全检查以及缺乏权限系统感到担忧。一些用户担心未来可能出现安全事故。
-
-**标签**: `#Obsidian`, `#plugins`, `#developer tools`, `#community`, `#automation`
-
----
-
-<a id="item-11"></a>
-## [科布勒提出“僵尸互联网”概念](https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything) ⭐️ 8.0/10
-
-Jason Koebler 在 404 Media 发表了一篇愤怒的评论文章，提出了“僵尸互联网”（Zombie Internet）一词，描述人工智能生成内容如何淹没网络并让人类读者精疲力竭。 这篇文章指出了网络内容质量日益严重的危机：AI 生成的垃圾内容不仅大量泛滥，还在扭曲人类的写作风格。 Koebler 将僵尸互联网与“死互联网”理论区分开来，强调它涉及人类与机器人的复杂互动，包括人们使用 AI 与他人交流，以及 AI 生成的书籍摘要被当作真书出售等情况。
-
-rss · Simon Willison · May 11, 19:21
-
-**背景**: “死互联网”理论是一种阴谋论，认为自 2016 年左右起，互联网上的大部分内容和互动都是自动化的，由算法和机器人控制。相比之下，“僵尸互联网”描述了一种状态：AI 生成的内容无处不在，但真实的人类活动依然存在，从而形成了一个令人筋疲力尽的混合环境。这个词由 Jason Koebler 在 2025 年 404 Media 的一篇文章中推广。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Dead_Internet_theory">Dead Internet theory</a></li>
-<li><a href="https://www.fastcompany.com/91489308/zombie-internet-devastating-consequences-advertising-social-media-human-web-dead-internet-moltbook-ai-tbpn">The ‘ zombie internet ’ has arrived—and it has... - Fast Company</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#content quality`, `#internet culture`, `#journalism`
-
----
-
-<a id="item-12"></a>
-## [Shopify 的 River 代理通过公开透明进行教学](https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything) ⭐️ 8.0/10
-
-Shopify 的内部 AI 编码代理 River 完全在公开的 Slack 频道中运作，允许任何员工观察并参与互动，营造了一种无需正式课程即可通过渗透学习的环境。 这种透明的方法将 AI 代理的使用转变为协作学习工具，可能影响公司部署 AI 代理的方式，优先考虑知识共享和集体改进。 River 不回复私信；它要求用户创建公开频道。在 CEO Tobias Lütke 自己的频道中，有超过 100 人跟随，添加上下文、进行评审并从互动中学习。
-
-rss · Simon Willison · May 11, 15:46
-
-**背景**: River 是 Shopify 的内部 AI 编码代理，旨在协助开发者进行代码生成和调试等任务。通过将所有互动公开，公司将自身转变为“教学工厂”（Lehrwerkstatt），学习通过观察实际工作自然发生。这与典型的私有 AI 代理互动形成对比，并呼应了 Midjourney 早期公开 Discord 的做法。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.zenml.io/llmops-database/building-a-public-ai-agent-workspace-for-organizational-learning">Shopify: Building a Public AI Agent Workspace for ...</a></li>
-<li><a href="https://shopify.dev/docs/apps/build/ai-toolkit">Shopify AI Toolkit</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI coding agents`, `#software development`, `#internal tools`, `#collaboration`, `#transparency`
-
----
-
-<a id="item-13"></a>
-## [世界模型位列 MIT 十大 AI 关注话题](https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/) ⭐️ 8.0/10
-
-2026 年 5 月 12 日，《麻省理工科技评论》发布了“当下 AI 领域重要的 10 件事”榜单，将世界模型列为关键新兴领域。该杂志还宣布举办仅限订阅者参加的圆桌讨论，主题为“AI 能学会理解世界吗？”，由执行编辑 Niall Firth 主持。 世界模型代表了 AI 向能够模拟和理解物理动态的范式转变，这对机器人技术、自动驾驶和交互式视频生成至关重要。《麻省理工科技评论》的认可表明世界模型正成为 AI 行业的核心焦点，推动投资和研究。 世界模型与大语言模型不同，它通过构建内部表示来预测环境如何随行动变化，模拟物理、物体交互和因果关系。即将举行的圆桌讨论将探讨 AI 如何演进以实现对世界的更深层次理解。
-
-rss · MIT Tech Review · May 12, 16:22
-
-**背景**: AI 中的世界模型是一种神经网络，它学习环境的内部表示并预测其随时间变化的动态。这些系统使智能体无需持续与现实世界交互就能进行规划和推理，其思想可追溯到 20 世纪 90 年代。现代世界模型通过生成合成数据和模拟物理来训练机器人和自动驾驶车辆。它们与专注于分类或生成的传统 AI 模型形成对比，为更扎实和因果性的理解提供了路径。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)">World model (artificial intelligence)</a></li>
-<li><a href="https://www.forbes.com/sites/nishatalagala/2026/04/19/ai-world-models-what-are-they-and-why-should-you-care/">AI World Models: What Are They And Why Should You Care - Forbes</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/world-models/">What Is a World Model? | NVIDIA Glossary</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#world models`, `#MIT Technology Review`, `#emerging technology`
-
----
-
-<a id="item-14"></a>
-## [诺奖经济学家指出需关注的三大 AI 趋势](https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/) ⭐️ 8.0/10
-
-2024 年诺贝尔经济学奖得主达龙·阿西莫格鲁发表了一篇论文，批评大型科技公司对 AI 的说法，并提出了他认为值得密切关注的 AI 三个关键领域。 作为诺贝尔奖得主，阿西莫格鲁的观点具有重要分量，为大型科技公司通常乐观的 AI 叙事提供了反观点，他的分析可能影响政策辩论和公众对 AI 经济与社会影响的理解。 这篇来自《麻省理工科技评论》通讯《算法》的文章指出，阿西莫格鲁对大型科技公司说辞的批判性分析使他在硅谷不受欢迎。值得关注的具体三项内容在全文中有详细说明，但总结表明这些内容源于他对 AI 益处可能被高估的研究。
-
-rss · MIT Tech Review · May 11, 17:35
-
-**背景**: 达龙·阿西莫格鲁是一位著名经济学家，因其在制度与经济增长方面的研究而获得 2024 年诺贝尔经济学奖。他近期的研究集中于人工智能的经济影响，经常挑战科技公司和投资者中普遍存在的乐观观点。
-
-**标签**: `#AI`, `#Economics`, `#Nobel laureate`, `#Trends`, `#Policy`
-
----
-
-<a id="item-15"></a>
-## [OpenAI 部署公司与苹果英特尔策略分析](https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/) ⭐️ 8.0/10
-
-Ben Thompson 的分析重点指出 OpenAI 成立了一家以部署为重心的新公司，以及苹果与英特尔合作的经​​济动机。 这些举措标志着战略转变：AI 部署需要自上而下的企业整合，而苹果的芯片战略可能从独家内部设计转向利用英特尔以获得成本效益。 据报道，OpenAI 的部署公司已获得 TPG、高盛和麦肯锡 40 亿美元的支持。苹果与英特尔合作的理由在分析中没有详细说明，但暗示了经济压力。
+OpenAI 成立了 OpenAI 部署公司（DeployCo），获得了 TPG、高盛和麦肯锡 40 亿美元的资金支持，并正在收购总部位于伦敦的人工智能咨询公司 Tomoro。同时，Stratechery 的文章分析指出，苹果有经济动机与英特尔合作。 这表明 AI 的影响将由自上而下的组织实施来驱动，从模型开发转向实际部署。对苹果而言，与英特尔合作可能重塑其芯片供应链和行业竞争格局。 这家部署公司获得了主要投资者 40 亿美元的支持，并包括对 Tomoro 的收购。这强化了一个观点：企业需要专业支持才能将前沿 AI 集成到生产中，以实现可衡量的业务影响。
 
 rss · Stratechery · May 13, 10:00
 
-**背景**: OpenAI 以开发 GPT-4 等先进 AI 模型而闻名。新的部署公司旨在帮助企业将 AI 集成到关键运营中。苹果历来使用自研芯片（Apple Silicon），最近 Mac 已脱离英特尔处理器；潜在的合作将标志着一项转变。
+**背景**: 自上而下的 AI 实施意味着组织通过中央规划和行政指令来部署 AI，而不是自下而上的草根采用。OpenAI 的新公司旨在帮助企业大规模采用 AI，解决从研究原型到生产系统的复杂性。这种方法类似于企业软件公司提供的咨询和实施服务。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://openai.com/index/openai-launches-the-deployment-company/">OpenAI launches the OpenAI Deployment Company to help ...</a></li>
-<li><a href="https://techjournal.org/openai-launches-4-billion-deployment-company">OpenAI Launches $4B Deployment Company: What It Means for ...</a></li>
+<li><a href="https://www.crn.com/news/ai/2026/openai-launches-services-business-on-heels-of-similar-anthropic-announcement">OpenAI Debuts $4B AI Services Company As Rival Anthropic ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#OpenAI`, `#Apple`, `#Intel`, `#strategy`
+**标签**: `#AI`, `#OpenAI`, `#Deployment`, `#Apple`, `#Intel`
+
+---
+
+<a id="item-11"></a>
+## [诺贝尔奖得主经济学家指出三个值得关注的 AI 趋势](https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/) ⭐️ 8.4/10
+
+诺贝尔经济学奖得主达龙·阿杰姆奥卢（Daron Acemoglu）指出了他认为值得密切关注的三项关键 AI 发展，并对大型科技公司的影响力提出了批判性观点。 作为诺贝尔经济学奖得主，阿杰姆奥卢的观点在塑造关于 AI 的公共和政策讨论方面具有重要分量，尤其是他对大型科技公司不受约束的权力及其对社会和劳动力市场影响的怀疑态度。 文章预览了阿杰姆奥卢在 2024 年获得诺贝尔奖之前发表的一篇论文中的分析，该论文因对大型科技公司在 AI 发展中的作用持怀疑态度而遭到硅谷的批评。
+
+rss · MIT Tech Review · May 11, 17:35
+
+**背景**: 达龙·阿杰姆奥卢是一位著名的经济学家，以其在制度、技术变革和经济增长方面的研究而闻名。他最近的研究聚焦于 AI 的经济影响，经常警告自动化和不平等的风险。这篇来自《麻省理工科技评论》的文章捕捉了他对值得审视的 AI 趋势的看法，特别是关于企业集中和劳动力替代的问题。
+
+**标签**: `#AI`, `#economics`, `#Daron Acemoglu`, `#technology trends`, `#MIT Technology Review`
+
+---
+
+<a id="item-12"></a>
+## [资深开发者为何难以传达专业知识](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise) ⭐️ 8.2/10
+
+这篇文章探讨了资深开发者为何常常无法清晰表达自己的专业知识，将其归因于隐性知识的性质以及难以言说的内在世界模型。 理解这种沟通鸿沟对于改善软件团队中的知识传递至关重要，因为资深经验至关重要却常被浪费。 文章指出，资深开发者的专业知识与其内在的'世界模型'紧密相连，难以与直觉分离。
+
+hackernews · nilirl · May 12, 15:08 · [社区讨论](https://news.ycombinator.com/item?id=48109460)
+
+**背景**: 隐性知识是指难以通过写作或口头表达转移的知识。资深开发者通过多年经验积累了大量隐性知识，但很难解释其决策过程，因为其中很多是直觉性的。
+
+**社区讨论**: 社区评论呈现了不同观点：一些人同意隐性知识难以传达，另一些人批评对资深开发者一概而论，还有关于'规避者'与'实验者'二分法的讨论。
+
+**标签**: `#senior developers`, `#communication`, `#expertise`, `#software engineering`, `#professional development`
+
+---
+
+<a id="item-13"></a>
+## [dnsmasq 六个严重漏洞 CVE 发布](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html) ⭐️ 8.2/10
+
+CERT 发布了六个关于 dnsmasq 严重安全漏洞的通用漏洞与暴露（CVE）。这些漏洞影响即将发布补丁之前的版本，允许远程攻击。 dnsmasq 嵌入在数百万家庭路由器和物联网设备中，因此这些漏洞对广泛的网络基础设施至关重要。这一发现重新引发了将此类软件用内存安全语言重写的呼吁，以防止未来的利用。 这些漏洞包括远程堆越界写入、导致拒绝服务的无限循环，以及 DHCP 缓冲区溢出。这些问题可通过恶意 DNS 查询或 DHCP 请求触发。
+
+hackernews · chizhik-pyzhik · May 12, 18:12 · [社区讨论](https://news.ycombinator.com/item?id=48112042)
+
+**背景**: dnsmasq 是一种广泛部署的开源软件，为小型网络提供 DNS 缓存、DHCP 服务器和网络启动服务。它以低资源消耗著称，并被包含在许多 Linux 发行版、Android 和消费级路由器中。像缓冲区溢出这样的内存安全漏洞在 C/C++ 代码中很常见，促使人们关注 Rust 等内存安全替代方案。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Dnsmasq">Dnsmasq</a></li>
+<li><a href="https://thekelleys.org.uk/dnsmasq/doc.html">Dnsmasq - network services for small networks.</a></li>
+<li><a href="https://www.memorysafety.org/docs/memory-safety/">What is memory safety and why does it matter? - Prossimo</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区成员表达了紧迫性，一位用户称这是用 Rust 或 Go 等内存安全语言重写代码的转折点。另一位用户讽刺地指出 dnsmasq 广泛应用于那些很少接收更新的设备。
+
+**标签**: `#security`, `#DNS`, `#CVE`, `#memory safety`, `#dnsmasq`
+
+---
+
+<a id="item-14"></a>
+## [在脚本的 shebang 行中使用 LLM](https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything) ⭐️ 8.2/10
+
+Simon Willison 展示了如何在脚本的 shebang 行中使用 LLM 命令行工具，直接通过文本文件生成文本，利用了片段、工具调用和 YAML 模板。 这种方法使纯文本文件变为可执行的 AI 驱动脚本，模糊了文档与自动化之间的界限，为轻量级提示驱动工作流开辟了新可能。 Shebang 行可以使用 `-f` 用于片段，`-T` 用于工具调用（例如 `llm_time`），以及 `-t` 用于定义自定义 Python 函数和模型（如 `gpt-5.4-mini`）的 YAML 模板。
+
+rss · Simon Willison · May 11, 18:48
+
+**背景**: LLM 是 Simon Willison 开发的开源命令行工具，允许用户通过 API 或本地方式与各种大型语言模型交互。片段功能允许将文件或 URL 中的内容添加到提示中，而工具调用则让 LLM 能执行预定义的函数。Shebang 行（`#!`）告诉 Unix 系统用特定解释器运行脚本，这项技术将其重新用于 AI 文本生成。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/simonw/llm">GitHub - simonw/llm: Access large language models from the command-line · GitHub</a></li>
+<li><a href="https://llm.datasette.io/en/stable/fragments.html">Fragments - LLM</a></li>
+<li><a href="https://news.ycombinator.com/item?id=40782755">Language models on the command line | Hacker News</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: Hacker News 上 Kim_Bruning 的评论启发了这一思路，他开玩笑建议在英文文本文件上加上 shebang。社区反应积极，关注将文本文件视为可执行提示的实际用途和新颖性。
+
+**标签**: `#LLM`, `#shebang`, `#scripting`, `#AI tools`, `#command-line`
+
+---
+
+<a id="item-15"></a>
+## [AI 代理用 DRIL 构建经济数据集](https://feeds.feedblitz.com/~/955775837/0/marginalrevolution~Using-agents-to-build-economic-datasets.html) ⭐️ 8.1/10
+
+研究人员提出了一种名为 DRIL（循环深度研究）的方法，利用 AI 代理自动从公开来源构建经济数据集，大幅降低数据收集的成本和人力。 该方法可能使实证经济学更加普及，让小型研究团队也能进行数据集构建，并支持以前难以实现的大规模跨国或历史分析。 DRIL 采用两阶段架构：在映射的单位空间（例如国家×年份）上应用固定的研究工具，并将信息检索和数据结构化任务分开。
+
+rss · Marginal Revolution · May 12, 04:26
+
+**背景**: 从原始来源构建数据集是实证经济学中最昂贵、最耗时的任务之一，通常需要手动提取和验证。由大语言模型驱动的 AI 代理可以通过浏览网站、提取表格和清洗数据来自动化部分工作流程。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://marginalrevolution.com/marginalrevolution/2026/05/using-agents-to-build-economic-datasets.html">Using agents to build economic datasets - Marginal REVOLUTION</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者表达了对数据可靠性和质量的担忧，质疑没有经过广泛验证的 AI 生成数据集是否可信。然而，也有人承认其潜力，并指出如果进行适当的检查，该方法可能很有价值。
+
+**标签**: `#AI agents`, `#economic datasets`, `#DRIL`, `#empirical economics`, `#research methodology`
 
 ---
 
 <a id="item-16"></a>
-## [Claude Code v2.1.139 新增代理视图和 /goal 命令](https://github.com/anthropics/claude-code/releases/tag/v2.1.139) ⭐️ 7.0/10
+## [Claude Code v2.1.139 新增代理视图和 /goal 命令](https://github.com/anthropics/claude-code/releases/tag/v2.1.139) ⭐️ 8.0/10
 
-Anthropic 发布了 Claude Code v2.1.139，新增了代理视图（agent view）以列出所有会话，以及 /goal 命令，让 Claude 跨轮次工作直到满足条件。 这些功能通过更好的会话管理和自主任务完成，显著提升了开发者的生产力，使 Claude Code 在处理复杂的多步骤编码工作流时更加强大。 代理视图显示正在运行、阻塞和完成的会话；/goal 命令支持交互式、-p 和远程控制模式，并带有实时覆盖面板显示已用时间、轮次和令牌数。
+Claude Code v2.1.139 引入了列出所有会话的代理视图、用于持续多轮任务的 /goal 命令，以及可调滚动速度和改进的钩子配置等多项 UX 改进。 这些功能通过同时管理多个编码会话和免手动完成任务，显著提高了开发者的生产力，使 Claude Code 成为更强大的代理编码工具。 代理视图是研究预览版，可通过 'claude agents' 命令访问。/goal 命令在交互、-p 和远程控制模式下工作，并显示实时指标。钩子现在支持 exec 形式直接执行命令，以及 PostToolUse 的 'continueOnBlock' 选项。
 
 github · ashwin-ant · May 11, 18:43
 
-**背景**: Claude Code 是 Anthropic 基于终端的 AI 编码助手，能够通过自然语言理解代码库、编辑文件和运行命令。代理视图提供了一个集中式仪表板来管理多个会话，而 /goal 命令允许 Claude 自主地朝着定义的目标工作，无需用户持续提示。
+**背景**: Claude Code 是 Anthropic 推出的代理编码工具，运行在终端中，能理解代码库并通过自然语言协助完成任务。代理视图提供了一个中央仪表板来监控和管理多个 Claude Code 会话。钩子是附加到事件的确定性 shell 命令，可实现自定义工作流和安全检查。
 
 <details><summary>参考链接</summary>
 <ul>
+<li><a href="https://code.claude.com/docs/en/agent-view">Manage multiple agents with agent view - Claude Code Docs</a></li>
 <li><a href="https://github.com/anthropics/claude-code/releases">Releases · anthropics/ claude - code · GitHub</a></li>
-<li><a href="https://gist.github.com/yurukusa/afd1b170cbe76101c15942c7a0471310">Claude Code v2.1.139's / goal command and issue #58373...</a></li>
+<li><a href="https://c-ai.chat/claude-code/claude-code-hooks/">Claude Code Hooks — PreToolUse, PostToolUse, St… - c-ai.chat</a></li>
 
 </ul>
 </details>
 
-**标签**: `#claude-code`, `#AI coding assistant`, `#release notes`, `#developer tools`, `#Anthropic`
+**标签**: `#AI`, `#LLM`, `#Claude Code`, `#agent`, `#dev tools`
 
 ---
 
 <a id="item-17"></a>
-## [开发者将基础设施迁移至欧洲云服务商](https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/) ⭐️ 7.0/10
+## [LLM 0.32a2 增加对 OpenAI /v1/responses 的支持](https://simonwillison.net/2026/May/12/llm/#atom-everything) ⭐️ 8.0/10
 
-一位开发者详细描述了其将数字基础设施从美国服务商迁移至欧洲替代方案的经历，理由涉及 GDPR 下的监管和隐私担忧。 此次迁移反映了欧洲数字主权日益增强的趋势，为考虑类似行动以减少对美国云服务依赖的人提供了实际经验。 作者从 Cloudflare 迁移至 Bunny CDN，并构建了一套 Terraform 配置以实现欧洲跨提供商的高可用性。
+LLM 0.32a2 alpha 现已为 GPT-5 类模型使用 OpenAI 的 /v1/responses 端点，可在 CLI 中以彩色输出显示推理 token。 此更新提高了运行推理密集型模型的用户的透明度，使得理解和调试模型行为更加容易。同时确保 LLM 与 OpenAI 最新的 API 演进保持兼容。 推理 token 以与标准错误不同的颜色显示，并可通过 -R 或 --hide-reasoning 标志隐藏。此更改适用于大多数具备推理能力的 OpenAI 模型。
 
-hackernews · monokai_nl · May 13, 11:42 · [社区讨论](https://news.ycombinator.com/item?id=48120629)
+rss · Simon Willison · May 12, 17:45
 
-**背景**: 数字主权指国家或个人对其数据和技术基础设施的控制权。在欧洲，这由 GDPR 合规要求和对美国监控法律的担忧推动，促使许多人寻找 Scaleway 或 Hetzner 等欧洲云服务商。
+**背景**: LLM 是一个用于运行大语言模型的命令行工具。OpenAI 最近引入了 /v1/responses 端点以支持有状态的推理交互，取代了 GPT-5 类模型的 /v1/chat/completions。推理 token 是模型在生成最终输出前用于规划和推理的内部 token。
 
-**社区讨论**: 评论者分享了类似经历：有人指出欧盟政府官员越来越频繁地询问欧洲托管方案；另一人成功迁移了产品托管并构建了 Terraform 配置；还有人称 Scaleway 是可靠的提供商。有评论讽刺地指出，尽管迁移到欧洲栈，但网站仍通过 Cloudflare（美国公司）出现速率限制问题。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://developers.openai.com/api/docs/guides/migrate-to-responses">Migrate to the Responses API | OpenAI API</a></li>
+<li><a href="https://developers.openai.com/api/docs/guides/reasoning">Reasoning models | OpenAI API</a></li>
 
-**标签**: `#cloud`, `#infrastructure`, `#GDPR`, `#Europe`, `#DevOps`
+</ul>
+</details>
+
+**标签**: `#llm`, `#OpenAI`, `#GPT-5`, `#tooling`, `#reasoning`
 
 ---
 
 <a id="item-18"></a>
-## [Scrcpy v4.0 新增灵活虚拟显示屏](https://github.com/Genymobile/scrcpy/releases/tag/v4.0) ⭐️ 7.0/10
+## [参数高尔夫揭示了 AI 辅助研究的洞见](https://openai.com/index/what-parameter-golf-taught-us) ⭐️ 7.8/10
 
-Scrcpy v4.0 已发布，引入了灵活虚拟显示屏功能，可通过 --flex-display（或 -x）标志动态调整大小，与客户端窗口同步。 这一增强使 Scrcpy 对于需要将 Android 设备镜像到大屏幕的用户更加灵活，无需牺牲显示质量即可无缝调整大小。它显著改善了开发者、测试人员和任何使用虚拟显示屏提高生产力的用户体验。 灵活显示屏功能通过在启动新虚拟显示屏时传递 -x 或 --flex-display 来激活。此功能与编解码器选择和分辨率限制等其他选项一同工作。
+OpenAI 的'参数高尔夫'竞赛吸引了超过 1000 名参与者和 2000 份提交，探索了在严格约束下的 AI 辅助机器学习研究、编码代理、量化以及新颖模型设计——约束条件包括 16MB 的权重与代码总大小限制，以及在 8 块 H100 GPU 上不超过 10 分钟的训练时间。 该竞赛展示了将人类创造力与 AI 辅助工具相结合可以突破模型压缩和高效设计的界限，这对于在资源受限设备上部署大型语言模型至关重要。获得的洞见可能加速更高效 AI 模型和编码代理的开发。 参赛者需要训练一个语言模型，其总大小（权重和训练代码之和）不超过 16MB，且在 8 块 H100 GPU 上最多使用 10 分钟。竞赛凸显了量化、剪枝和新颖架构等技术在极端约束下实现高性能的方法。
 
-hackernews · xnx · May 12, 20:50 · [社区讨论](https://news.ycombinator.com/item?id=48114356)
+rss · OpenAI Blog · May 12, 00:00
 
-**背景**: Scrcpy 是一个免费开源工具，可通过 USB 或无线方式显示和控制 Android 设备，具有高性能和低延迟。3.0 版本引入了虚拟显示屏，允许独立于设备屏幕的显示。4.0 版本在此基础上，使虚拟显示屏尺寸自动适应客户端窗口，提供更集成的体验。
+**背景**: 模型压缩技术如量化将模型权重的精度从 32 位浮点数降低到更低比特格式（例如 8 位整数），在保持精度的同时大幅减少内存使用。AI 辅助研究涉及使用 AI 工具（如编码代理）来帮助设计和优化机器学习模型。'参数高尔夫'是一项挑战，旨在测试人类创造力和 AI 辅助在创建极度高效模型方面的有效性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/Genymobile/scrcpy">GitHub - Genymobile/scrcpy: Display and control your Android device · GitHub</a></li>
-<li><a href="https://github.com/Genymobile/scrcpy/blob/master/doc/virtual_display.md">scrcpy/doc/virtual_display.md at master · Genymobile/scrcpy</a></li>
-<li><a href="https://itsfoss.community/t/scrcpy-3-0-comes-with-virtual-displays/12873">Scrcpy 3.0 comes with virtual displays! - Discussion - It's FOSS Community</a></li>
+<li><a href="https://openai.com/index/parameter-golf/">OpenAI Model Craft: Parameter Golf | OpenAI</a></li>
+<li><a href="https://the-decoder.com/openai-turns-model-compression-into-a-talent-hunt-with-its-16-mb-parameter-golf-challenge/">OpenAI turns model compression into a talent hunt with its 16 MB "Parameter Golf" challenge</a></li>
+<li><a href="https://www.cloudflare.com/learning/ai/what-is-quantization/">What is quantization in machine learning ? | Cloudflare</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反馈总体积极，用户称赞其无缝易用。但一位三星用户报告了一个手势导航 bug，即使在 v4.0 中也存在，需要重启手机。其他用户分享了创造性用例，例如将手机作为 WiFi 桥接器。
-
-**标签**: `#android`, `#screen-mirroring`, `#open-source`, `#tooling`
+**标签**: `#AI-assisted research`, `#parameter golf`, `#machine learning`, `#quantization`, `#coding agents`
 
 ---
 
 <a id="item-19"></a>
-## [AI 鼠标指针：DeepMind 的语音驱动重新设计](https://deepmind.google/blog/ai-pointer/) ⭐️ 7.0/10
+## [开发者因 AI 抓取和中心化问题从 GitHub 迁移至自托管 Forgejo](https://jorijn.com/en/blog/leaving-github-for-forgejo/) ⭐️ 7.7/10
 
-DeepMind 提出了一种 AI 驱动的鼠标指针，它使用语音命令和上下文理解来简化用户交互，允许通过语音提示执行移动对象或添加文本等操作。 这一概念可能从根本上改变人机交互，减少对菜单和键盘快捷键的依赖，但也引发了可能限制其采用的重大可用性和隐私问题。 该指针与 LLM 集成以解释上下文和语音输入，但批评者指出，许多操作可以通过现有菜单或键盘快捷键更快地完成，并且持续的服务器通信会带来隐私风险。
+一位开发者宣布将其 Git 仓库从 GitHub 迁移到自托管的 Forgejo 实例，理由是担心 AI 抓取代码以及希望实现去中心化。 这一迁移反映了开发者因隐私和控制问题离开 GitHub 等中心化平台的趋势，可能加速自托管锻造站（如 Forgejo）的采用。 Forgejo 是一个轻量级、自托管的 Git 软件锻造站，提供 bug 追踪、代码审查和持续集成等功能，于 2022 年作为社区所有的 Gitea 分支创建。
 
-hackernews · devhouse · May 12, 17:40 · [社区讨论](https://news.ycombinator.com/item?id=48111581)
+hackernews · jorijn · May 13, 12:54 · [社区讨论](https://news.ycombinator.com/item?id=48121266)
 
-**背景**: 鼠标指针是图形用户界面的基本元素，通常通过物理移动控制。DeepMind 的提议增加了一层 AI，实现上下文感知交互，可能减少手动导航的需求。语音控制在计算领域历史悠久，但由于准确性和社交尴尬而仍然小众。
+**背景**: GitHub 是微软旗下的中心化版本控制和协作平台，使用 Git。许多开发者开始担心他们的代码被如何利用，特别是用于训练 AI 模型，这推动了对自托管替代方案的青睐，让用户完全掌控自己的数据。
 
-**社区讨论**: 评论者持怀疑态度，许多人指出语音控制在共享空间中不切实际，并且演示显示与传统方法相比没有节省时间。还提出了对持续服务器通信的隐私担忧。少数评论者看到了与 LLM 进行连续“指向并说话”交互的潜力。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Forgejo">Forgejo - Wikipedia</a></li>
+<li><a href="https://forgejo.org/">Forgejo – Beyond coding. We forge.</a></li>
+<li><a href="https://codeberg.org/forgejo/forgejo">forgejo/forgejo: Beyond coding. We forge. - Codeberg.org</a></li>
 
-**标签**: `#AI`, `#human-computer interaction`, `#DeepMind`, `#user interface`, `#voice control`
+</ul>
+</details>
+
+**社区讨论**: Hacker News 上的评论表达了对自托管的支持以及对 AI 抓取的类似担忧；一些人建议使用 GitSocial 等工具实现跨锻造站协作，而另一些人指出 Git 原本就是去中心化的，GitHub 的便利性导致了中心化。少数评论者推荐 Fossil 作为替代方案，它可以将所有仓库状态打包在单个文件中。
+
+**标签**: `#self-hosting`, `#git`, `#forgejo`, `#decentralization`, `#open-source`
 
 ---
 
 <a id="item-20"></a>
-## [通过沙箱 iframe 实现用户控制的 CSP 白名单](https://simonwillison.net/2026/May/13/csp-allow/#atom-everything) ⭐️ 7.0/10
+## [僵尸互联网：AI 内容污染网络](https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything) ⭐️ 7.7/10
 
-Simon Willison 开发了一个工具，将应用加载到受 CSP 保护的沙箱 iframe 中，拦截因 CSP 违规导致的 fetch 错误，提示用户将拦截的来源加入白名单，然后刷新页面。 该实验引入了一种新颖的、由用户驱动的内容安全策略管理方法，有望在不降低整体安全性的前提下，更轻松地处理动态的第三方资源需求。 该工具在沙箱内使用自定义的 fetch() 捕获 CSP 错误，并将其传递给父窗口，父窗口随后显示一个模态框请求用户许可；该工具使用 Codex 桌面应用中的 GPT-5.5 xhigh 构建。
+杰森·科布勒在 404 Media 发表文章，提出“僵尸互联网”概念，描述 AI 生成内容如何与人类内容混合，让读者精疲力竭。 这突显了一个日益严重的问题：AI 写作正在降低网络讨论质量和用户心理健康，可能侵蚀人们对数字内容的信任。 “僵尸互联网”与“死网”理论不同，它包括人机交互，例如人们使用 AI 代理与他人对话，以及商业垃圾信息。
 
-rss · Simon Willison · May 13, 04:50
+rss · Simon Willison · May 11, 19:21
 
-**背景**: 内容安全策略 (CSP) 是一种浏览器安全机制，通过 HTTP 头限制页面可以加载哪些资源。iframe 上的 sandbox 属性进一步限制嵌入的内容，赋予其唯一来源并限制其功能。通常，CSP 白名单是静态的并由服务器设置；而该实验根据用户交互动态调整白名单。
+**背景**: “死网”理论认为大部分网络内容由机器人生成。科布勒的“僵尸互联网”是更隐蔽的变体，人类和 AI 共存，造成混乱的混合。AI 代理是可以利用 AI 自主追求目标的软件系统。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/sandbox">Content-Security-Policy: sandbox directive - HTTP | MDN</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">Content Security Policy (CSP) - HTTP | MDN - MDN Web Docs Usage example</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dead_Internet_theory">Dead Internet theory - Wikipedia</a></li>
+<li><a href="https://tech.yahoo.com/social-media/articles/zombie-internet-arrived-devastating-consequences-100000186.html">The ‘ zombie internet ’ has arrived—and it has devastating...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#CSP`, `#security`, `#web`, `#sandbox`, `#iframe`
+**标签**: `#AI writing`, `#Zombie Internet`, `#online content quality`, `#AI impact`, `#Jason Koebler`
 
 ---
 
 <a id="item-21"></a>
-## [Mitchell Hashimoto 谈技术决策者的风险规避](https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything) ⭐️ 7.0/10
+## [Obsidian 推出新社区站点与插件审核系统](https://obsidian.md/blog/future-of-plugins/) ⭐️ 7.4/10
 
-HashiCorp 联合创始人 Mitchell Hashimoto 在 Lobste.rs 上提出了一个批评性观察，认为 90% 的技术决策者主要动机是避免责任，导致他们跟随分析师趋势如“AI 战略”，而非真正的创新。 这一见解揭示了一个普遍但鲜少讨论的企业技术采用驱动力，解释了为何流行词驱动的采购常胜过技术更优的解决方案，并可能帮助开发者和供应商更好地理解决策者心理。 该引文来自 Lobste.rs 上关于 Redis 主页设计的讨论。Hashimoto 区分了热情的贡献者和风险规避型管理者，后者依赖分析师背书（如 Gartner、McKinsey）来证明采购的合理性。
+Obsidian 推出了一个新的社区网站和自动化插件审核系统，以取代此前使提交新插件几乎不可能的手动审核瓶颈。 这一变化大大减少了插件开发者的障碍，缓解了 Obsidian 小团队的工作压力，并有助于维护依赖社区贡献的活跃生态系统。 新系统包括自动化安全检查与基于社区的审核，但一些专家质疑仅靠自动检查能否可靠地识别恶意插件。CEO Kepano 表示这是第一版，还有大量改进计划。
 
-rss · Simon Willison · May 12, 22:21
+hackernews · xz18r · May 12, 15:45 · [社区讨论](https://news.ycombinator.com/item?id=48109970)
 
-**背景**: Mitchell Hashimoto 以 HashiCorp 联合创始人身份闻名，并创造了 Vagrant、Terraform、Consul 等流行 DevOps 工具。技术决策者（TDM）是组织中负责选择技术的个人。Hashimoto 的批评反映了一种常见模式：风险规避行为导致技术采购中的从众心态，优先选择与市场趋势一致的安全选项，而非创新但未经证实的替代方案。
+**背景**: Obsidian 是一款以纯 Markdown 文件存储笔记的应用，通过 Web 技术编写的插件提供高度定制化。插件生态系统发展迅速，特别是借助 AI 辅助开发，导致提交积压和开发者不满。
 
-**标签**: `#technology decision making`, `#marketing`, `#tech industry`, `#risk aversion`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Obsidian_(software)">Obsidian (software) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 开发者反应普遍积极，许多人承认此前存在严重的提交瓶颈。一些评论者对自动安全检查表示怀疑，主张采用带有明确权限 API 的沙盒机制来消除审核需求。
+
+**标签**: `#Obsidian`, `#Plugin Ecosystem`, `#Dev Tools`, `#Community Management`, `#Software Engineering`
 
 ---
 
 <a id="item-22"></a>
-## [LLM 0.32a2 增加对 OpenAI /v1/responses 端点的支持](https://simonwillison.net/2026/May/12/llm/#atom-everything) ⭐️ 7.0/10
+## [经济学家称数据中心促进 AI 和云计算发展](https://feeds.feedblitz.com/~/955834529/0/marginalrevolution~Data-centers-are-good.html) ⭐️ 7.4/10
 
-LLM 0.32a2 的 alpha 版本现在对大多数具备推理能力的 OpenAI 模型使用 /v1/responses 端点，替代了 /v1/chat/completions，从而支持跨工具调用的交错推理，并向用户显示摘要化的推理 token。 此次更新使用户能够看到模型输出背后的推理过程，增强了使用 OpenAI 高级推理模型（如 GPT-5 类模型）的开发者的透明度和调试能力。 推理 token 以与标准错误不同的颜色显示，用户可以通过 -R 或 --hide-reasoning 标志隐藏它们。此更改是开源 LLM 项目中的拉取请求 #1435 的一部分。
+泰勒·考恩在一篇博文中指出，尽管数据中心引发了当地对环境和经济的担忧，但它们通过支持人工智能和云计算带来了净收益。 这一观点之所以重要，是因为社区和政策制定者正在权衡数据中心扩张的成本与收益，而 AI 需求正在加速这一扩张。 文章强调了一个地方政策权衡：数据中心创造就业和税收，但也消耗水和电力资源。
 
-rss · Simon Willison · May 12, 17:45
+rss · Marginal Revolution · May 13, 05:13
 
-**背景**: LLM 是 Simon Willison 开发的命令行工具和 Python 库，用于与大型语言模型交互。/v1/responses 端点是 OpenAI 的新 API，用于高级代理工作流和链式思维推理。推理 token 是模型在提供最终答案之前用于规划和生成中间输出的内部 token。
+**背景**: 数据中心是容纳计算机服务器和网络设备的大型设施，是云计算和 AI 服务的骨干。它们的快速扩张引发了关于能源消耗、水资源使用和地方经济利益的争论。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://platform.openai.com/docs/api-reference/responses">platform. openai .com/docs/api-reference/ responses</a></li>
-<li><a href="https://openrouter.ai/docs/guides/best-practices/reasoning-tokens">Reasoning Tokens | Enhanced AI... | OpenRouter | Documentation</a></li>
+**社区讨论**: 评论者讨论了具体的权衡，有人指出数据中心建设成本和信息传达可以改进以获得公众支持。
 
-</ul>
-</details>
-
-**标签**: `#llm`, `#openai`, `#reasoning`, `#tool release`, `#ai`
+**标签**: `#data centers`, `#AI infrastructure`, `#economics`, `#cloud computing`, `#tech policy`
 
 ---
 
 <a id="item-23"></a>
-## [GitLab 裁员与战略转型](https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything) ⭐️ 7.0/10
+## [Claude Code v2.1.140：Bug 修复与小幅改进](https://github.com/anthropics/claude-code/releases/tag/v2.1.140) ⭐️ 7.3/10
 
-GitLab 宣布裁员 7%，计划将运营国家数量减少 30%，扁平化管理层级，并废除原有的 CREDIT 价值观框架，代之以“速度与质量”、“客户成果”等新价值观，以适应智能体时代。 此次重组反映了科技公司为 AI 驱动效率而进行激进调整的广泛趋势，可能成为远程优先企业适应智能体时代的蓝图。这些变化将影响数百名员工，并重塑 GitLab 的运营模式。 GitLab 将裁员 7%，减少拥有小团队的国家的数量达 30%，在某些职能部门裁撤多达三层管理层，并将研发部门重组为约 60 个小型自主团队。CREDIT 价值观框架被“速度与质量”、“主人翁心态”和“客户成果”取代，但多样性仍保留在“人际卓越”的子条目下。
+Anthropic 发布了 Claude Code v2.1.140，这是一个专注于错误修复和小幅改进的补丁版本，包括改进了子代理类型匹配，并修复了若干挂起、钩子和启动问题。 此次更新提升了使用 Claude Code 作为 AI 编程代理的开发者的可靠性和用户体验，修复了可能导致挂起或配置错误的微妙 Bug，这对于生产环境中的代理工作流至关重要。 值得注意的修复包括：`/goal` 在钩子禁用时不再挂起；符号链接的配置文件不再触发虚假的配置更改钩子；后台服务启动在企业端点安全系统上给予更多时间；以及因缺少可执行文件导致的 Windows 事件循环停滞问题已解决。
 
-rss · Simon Willison · May 11, 23:58
+github · ashwin-ant · May 12, 21:09
 
-**背景**: GitLab 以其全远程员工队伍和透明手册而闻名，业务遍及近 60 个国家。“智能体时代”指的是 AI 智能体能够自主执行任务的趋势，增加了软件需求。此次重组旨在通过自动化内部流程和赋能小型团队，使 GitLab 为这一新时代做好准备。
+**背景**: Claude Code 是 Anthropic 开发的一款代理式编码工具，运行在终端中，帮助开发者理解代码库、编辑文件、运行命令并自动化工作流。它可以生成子代理执行聚焦任务，权限规则可以大小写和分隔符不敏感地匹配子代理类型。该工具还支持钩子（hooks）来响应配置更改及其他事件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://about.gitlab.com/blog/gitlab-act-2/">GitLab Act 2</a></li>
-<li><a href="https://www.thehrdigest.com/agentic-ai-ambitions-strike-again-as-gitlab-announces-layoffs-for-2026/">Agentic AI Ambitions Strike Again as GitLab Announces Layoffs ...</a></li>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code is an agentic coding tool that lives in your ...</a></li>
+<li><a href="https://github.com/anthropics/claude-code/issues/58540">[DOCS] [Permissions] Agent(subagent) matching docs omit case ...</a></li>
+<li><a href="https://code.claude.com/docs/en/hooks">Hooks reference - Claude Code Docs</a></li>
 
 </ul>
 </details>
 
-**标签**: `#GitLab`, `#business strategy`, `#remote work`, `#workforce reduction`
+**标签**: `#claude-code`, `#agentic systems`, `#bug-fixes`, `#AI-tools`, `#Anthropic`
 
 ---
 
 <a id="item-24"></a>
-## [James Shore 警告：AI 编程工具必须降低维护成本](https://simonwillison.net/2026/May/11/james-shore/#atom-everything) ⭐️ 7.0/10
+## [AutoScout24 通过 AI 工作流提升工程效率](https://openai.com/index/autoscout24) ⭐️ 7.3/10
 
-James Shore 指出，AI 编程工具必须在提高编码效率的同时，以相同比例降低维护成本，否则长期成本将失控。他用简单的数学模型说明，如果效率翻倍而维护成本未减半，总维护费用将变为四倍。 这揭示了采用 AI 进行软件开发时一个常被忽视的关键权衡：效率提升可能被累积的技术债务抵消。工程领导者和开发者需要基于长期成本影响而不仅是速度来评估 AI 工具。 Shore 的论点基于公式：总维护成本随（效率乘数）×（维护成本乘数）变化。若效率翻倍（乘数 2）而维护不变（乘数 1），总成本翻倍；若维护同时减半（0.5），总成本不变。
+AutoScout24 集团已采用 OpenAI 的 Codex 和 ChatGPT 来加速开发周期、提高代码质量，并扩大 AI 在工程团队中的应用。 这一案例研究展示了大型汽车市场如何利用 AI 编程智能体提升开发效率和代码质量，为其他探索 AI 辅助工程的企业提供了可复制的模式。 AutoScout24 使用 Codex 进行自动代码生成和调试，同时利用 ChatGPT 辅助文档编写和代码审查。这一集成带来了更快的迭代速度和更少的生产缺陷。
 
-rss · Simon Willison · May 11, 19:48
+rss · OpenAI Blog · May 12, 00:00
 
-**背景**: 软件维护成本占总拥有成本的很大一部分，通常超过初始开发成本。AI 编程工具通过快速生成代码提高效率，但如果生成的代码难以维护，技术债务就会增加。Shore 的洞察是，AI 工具不仅要生成代码，还要帮助管理和降低维护负担才能持续。
+**背景**: OpenAI Codex 是一个将自然语言转换为代码的 AI 系统，为 GitHub Copilot 等工具提供支持。同样来自 OpenAI 的 ChatGPT 可协助完成代码解释和头脑风暴等对话式任务。AutoScout24 是欧洲领先的在线汽车市场，拥有庞大的工程团队。
 
-**标签**: `#AI coding`, `#software maintenance`, `#productivity`, `#technical debt`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/OpenAI_Codex">OpenAI Codex</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI workflows`, `#Codex`, `#ChatGPT`, `#software engineering`, `#AutoScout24`
 
 ---
 
 <a id="item-25"></a>
-## [参数高尔夫：AI 辅助模型设计的启示](https://openai.com/index/what-parameter-golf-taught-us) ⭐️ 7.0/10
+## [研究者年龄增长，颠覆性工作减少](https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650) ⭐️ 7.2/10
 
-OpenAI 发布了参数高尔夫比赛的见解，该比赛有超过 1000 名参与者提交了超过 2000 个模型，这些模型在严格约束下训练：16MB 大小限制和在 8×H100 GPU 上 10 分钟的训练预算。 该比赛展示了 AI 辅助研究和编码代理如何在极端资源约束下加速模型设计，可能影响未来高效模型开发和量化技术。 模型通过在 FineWeb 验证集上的压缩率（每字节位数）进行评估，该挑战同时也是 OpenAI 的招聘渠道。
+一篇 Nautilus 文章探讨了年长研究者往往产出较少颠覆性工作的现象，归因于长期停留在单一领域和陷入常规思维等因素。 这一模式对科研创新和资助方式具有启示意义，表明鼓励研究者转换领域或保持新鲜感可能增加突破性发现。 文章引用了一些例子，如 Yuval Ne'eman 在从军旅生涯转行后发现了 SU(3)，以及 Douglas Adams 关于技术接受年龄的规则。
 
-rss · OpenAI Blog · May 12, 00:00
+hackernews · Brajeshwar · May 12, 17:16 · [社区讨论](https://news.ycombinator.com/item?id=48111243)
 
-**背景**: 量化是一种将模型权重和激活的精度降低到较低位宽（例如从 32 位浮点数到 8 位整数）的技术，使模型更小、更快，且精度损失极小。参数高尔夫设置了 16MB 总大小限制，迫使参与者应用激进的量化和其它压缩方法。比赛还探索了 AI 辅助研究，编码代理和人与 AI 协作帮助在严格预算下设计新颖架构。
+**背景**: “科学是一次葬礼一次葬礼地进步”这一现象源于 Max Planck 的观察，即新的科学真理往往不是通过说服反对者而得到接受，而是等待反对者离世。本文指出了研究者年龄与颠覆性工作之间的类似动态。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://openai.com/index/parameter-golf/">OpenAI Model Craft: Parameter Golf</a></li>
-<li><a href="https://github.com/openai/parameter-golf/">GitHub - openai/parameter-golf: Train the smallest LM you can ...</a></li>
-<li><a href="https://aihola.com/article/openai-parameter-golf-competition">OpenAI Parameter Golf: 16MB Model Competition and Hiring Pip</a></li>
+**社区讨论**: 评论者就原因是年龄本身还是在该领域花费的时间展开辩论，一些人建议转换领域或保持新鲜感可以维持创造力。其他人则强调了家庭责任和生理变化等混杂因素。
 
-</ul>
-</details>
-
-**标签**: `#AI research`, `#machine learning`, `#coding agents`, `#quantization`
+**标签**: `#science`, `#research`, `#innovation`, `#academia`, `#aging`
 
 ---
 
 <a id="item-26"></a>
-## [AWS 上基础模型训练和推理的构建块](https://huggingface.co/blog/amazon/foundation-model-building-blocks) ⭐️ 7.0/10
+## [Mitchell Hashimoto：技术决策者害怕被炒](https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything) ⭐️ 7.2/10
 
-Hugging Face 发布了一篇博客文章，详细介绍了用于构建和扩展基础模型训练与推理工作负载的关键 AWS 组件，包括 Trainium 和 Inferentia 加速器以及 Neuron SDK。 该指南帮助从业者在 AWS 定制硬件上高效部署大模型，可能降低生成式 AI 工作负载的成本并提高性能。 文章涵盖了从使用 AWS Trainium 进行训练到使用 AWS Inferentia 进行推理的完整工作流，并利用 AWS Neuron SDK 进行优化。
+Mitchell Hashimoto 指出，大多数技术决策者（TDM）的主要动机是避免被解雇，因此他们跟随世俗趋势和分析师建议，而非追求真正的创新。 这一观点挑战了普遍认为技术领导者受激情和深厚专业知识驱动的认知，揭示了职业风险规避如何影响技术采用和行业方向。 Hashimoto 的评论是在关于 Redis 主页设计的 Lobsters 讨论中发表的，他特别提到 Gartner 和 McKinsey 是影响 TDM 行为的因素。
 
-rss · Hugging Face Blog · May 11, 23:18
+rss · Simon Willison · May 12, 22:21
 
-**背景**: 基础模型是像 GPT-4 和 Llama 这样需要大量计算资源的大型 AI 模型。AWS 开发了定制的 AI 加速器：用于训练的 Trainium 和用于推理的 Inferentia，以及用于在这些芯片上优化模型性能的 Neuron SDK。
+**背景**: 技术决策者（TDM）是组织中负责技术选择的角色，通常需要平衡业务需求与技术选项。Hashimoto 的观点表明，许多 TDM 优先考虑工作安全而非真正的技术创新，导致市场中的趋同行为。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://aws.amazon.com/ai/machine-learning/trainium/">AI Accelerator - AWS Trainium - AWS</a></li>
-<li><a href="https://aws.amazon.com/ai/machine-learning/inferentia/">AI Chip - Amazon Inferentia - AWS</a></li>
-<li><a href="https://aws.amazon.com/ai/machine-learning/neuron/">SDK for Gen AI and Deep Learning - AWS Neuron - AWS</a></li>
+<li><a href="https://www.acronymfinder.com/Technical-Decision-Maker-(various-companies)-(TDM).html">TDM - Technical Decision Maker (various companies ...</a></li>
+<li><a href="https://marketingwithjay.uk/bdm-vs-tdm-understanding-the-dual-perspectives-in-it-decisions/">BDM vs TDM: Understanding the Dual Perspectives in IT ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AWS`, `#foundation models`, `#training`, `#inference`, `#machine learning`
+**标签**: `#software engineering`, `#product management`, `#marketing`, `#AI strategy`, `#industry analysis`
 
 ---
 
 <a id="item-27"></a>
-## [Varda 与 United Therapeutics 合作，将在轨道上商业生产药物](https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/) ⭐️ 7.0/10
+## [AI 带来的就业过渡难题：非显而易见的障碍](https://feeds.feedblitz.com/~/955838699/0/marginalrevolution~Some-nonobvious-reasons-why-AI-will-create-some-transitional-problems-in-employment.html) ⭐️ 7.1/10
 
-Varda Space Industries 与制药公司 United Therapeutics 签署了首个重要协议，将在微重力环境下开发和制造药物。这标志着向轨道药物商业化生产迈出了关键一步。 此次合作表明，太空药物制造正从实验阶段走向商业化，有望生产出在地球上难以制造的新型药物。这可能会开启一个基于太空的制药新产业，并吸引更多投资。 Varda 的方法是利用其航天器在微重力环境下使小分子结晶，然后通过大气再入飞行器将晶体带回地球。该公司成立于 2021 年，得到了 Khosla Ventures 和 Founders Fund 的支持。
+泰勒·考恩认为，虽然 AI 导致大规模失业的可能性不大，但会出现三个非显而易见的过渡性问题：新工作岗位出现在高度监管的行业、潜在的技能错配以及短期调整成本。 这一分析将讨论从灾难性的失业转向真实但可控的过渡摩擦，突出了可能减缓适应 AI 驱动变化的监管和结构性障碍。 考恩特别指出，新的 AI 相关岗位可能集中在医疗和法律等高度监管的行业，这些行业的职业许可和合规要求构成了进入壁垒。
 
-rss · MIT Tech Review · May 13, 10:00
+rss · Marginal Revolution · May 13, 07:36
 
-**背景**: 微重力环境下的药物研究已在航天飞机和国际空间站上进行了数十年，但通常受限于可及性差和成本高昂。Varda 旨在为制药商提供实用、可重复的商业服务，以利用太空中独特的结晶条件。
+**背景**: AI 自动化预计会取代部分工作岗位，但也会创造新的岗位。然而，如果新工作需要的执照或认证耗时较长，过渡过程可能不会顺利。经济学家泰勒·考恩经常撰写关于技术和经济学的文章。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Varda_Space_Industries">Varda Space Industries</a></li>
-<li><a href="https://arstechnica.com/space/2026/05/varda-signs-deal-with-major-us-pharma-firm-to-develop-drugs-in-space/">Could this be the moment that drug manufacturing takes off in ...</a></li>
-<li><a href="https://spacenews.com/varda-to-collaborate-with-united-therapeutics-on-microgravity-drug-research/">Varda to collaborate with United Therapeutics on microgravity ...</a></li>
+**社区讨论**: 帖子下的评论对 AI 在监管行业的自由表示怀疑，并指出技术对就业的影响存在两难困境，表明许多读者认同考恩细致的观点。
 
-</ul>
-</details>
-
-**标签**: `#space manufacturing`, `#pharmaceuticals`, `#biotechnology`, `#commercial space`
+**标签**: `#AI`, `#employment`, `#transitional problems`, `#economics`, `#Tyler Cowen`
 
 ---
 
 <a id="item-28"></a>
-## [TechPays 被 Levels.fyi 收购以提升欧洲薪酬透明度](https://blog.pragmaticengineer.com/techpays-has-been-acquired-levels-fyi/) ⭐️ 7.0/10
+## [用 WebGL 和光线步进渲染天空、日落和行星](https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/) ⭐️ 7.0/10
 
-Levels.fyi 已收购 TechPays，这是欧洲领先的科技薪酬透明度网站，该消息于 2025 年 7 月 31 日宣布。此次收购将合并两个平台的薪酬数据，以提升薪酬透明度。 此次收购显著增强了欧洲科技工作者的薪酬透明度，他们历来比美国同行更难获得薪酬数据。合并 Levels.fyi 和 TechPays 的数据集将提供更全面的地区薪酬视图。 TechPays 由 Gergely Orosz（The Pragmatic Engineer 博客作者）和 Zsombor Szász 共同创立。该网站专注于欧洲科技薪酬，尤其是伦敦和柏林等枢纽城市，现在将整合到 Levels.fyi 中。
+Maxime Heckel 发布了一篇详细的博客文章，展示了如何使用 WebGL 和光线步进技术在浏览器中渲染逼真的天空、日落和行星，并提供了交互式演示。 这项工作展示了现代 Web 图形技术模拟复杂大气散射效果的能力，使高级渲染技术对 Web 开发者更易用，并激发了在基于浏览器的 3D 图形领域进行更多探索。 该博客使用带符号距离函数（SDF）的光线步进来构建行星几何体，并通过瑞利散射和米氏散射近似模型来模拟大气散射。交互式演示允许读者实时调整太阳位置和大气密度等参数。
 
-rss · Pragmatic Engineer · May 12, 16:06
+hackernews · ibobev · May 12, 13:26 · [社区讨论](https://news.ycombinator.com/item?id=48107997)
 
-**背景**: Levels.fyi 是一个众包平台，提供科技公司的薪酬和福利数据，主要覆盖美国。TechPays 的创建是为了解决欧洲薪酬透明度不足的问题，那里的薪资信息通常不透明。此次收购预计将加速 Levels.fyi 在欧洲市场的扩张。
+**背景**: 光线步进是一种渲染技术，通过迭代地在场景中推进射线来计算与隐式表面或体积效果的相交。它非常适合渲染程序化几何体和参与性介质（如大气）。大气散射是指太阳光被大气中的粒子散射的物理现象，产生蓝天和红色日落。WebGL 无需插件即可在浏览器中实现硬件加速图形。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.pragmaticengineer.com/techpays-has-been-acquired-levels-fyi/">TechPays has been acquired by Levels.fyi - The Pragmatic Engineer</a></li>
-<li><a href="https://www.levels.fyi/blog/levelsfyi-acquires-techpays.html">Levels.fyi acquires TechPays</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ray_marching">Ray marching</a></li>
+<li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15010">Physically Based Real‐Time Rendering of Atmospheres using Mie ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#acquisition`, `#tech salaries`, `#pay transparency`, `#Levels.fyi`, `#TechPays`
+**社区讨论**: 评论者称赞了博客的质量和交互性，有人提到灵感来自 Sebastian Lague 的大气视频。另一位指出一个现实限制：日落后天空不应立即变黑，因为暮光会持续到太阳位于地平线以下 18 度。总体来说，社区认为这篇文章具有启发性且技术令人印象深刻。
+
+**标签**: `#graphics`, `#rendering`, `#WebGL`, `#atmosphere simulation`, `#planet rendering`
 
 ---
 
 <a id="item-29"></a>
-## [Thinking Machines 发布 TML-Interaction-Small，新一代实时语音 AI](https://www.latent.space/p/ainews-thinking-machines-native-interaction) ⭐️ 7.0/10
+## [谷歌将 Android 从 I/O 主题演讲中剥离，突出 AI 优先](https://sspai.com/post/109699) ⭐️ 7.0/10
 
-Thinking Machines 发布了 TML-Interaction-Small，这是一个 2760 亿参数的混合专家模型，其中 120 亿参数被激活，实现了最先进的实时语音交互，并消除了传统语音活动检测（VAD）的需求。 该模型代表了从基于轮次的语音 AI 向原生全双工交互的转变，使语音对话更加自然和无缝。它还通过将交互性直接集成到模型架构中，挑战了现有方法，有可能为实时语音 AI 设定新标准。 该模型采用混合专家架构，总参数 2760 亿，但每次推理仅激活 120 亿参数，平衡了性能和效率。它配有一个较慢的异步后台模型，用于复杂推理、网络搜索和工具调用，使前台模型能够保持流畅对话。
+2025 年，谷歌首次将 Android 部分从 I/O 大会的主题演讲中分离出来，提前单独举办活动，以强调其 AI 优先战略。 这一战略转变表明 AI 已成为谷歌的核心关注点，甚至超越了其旗舰移动操作系统。这可能会重塑开发者和用户对未来几年谷歌优先级的认知。 单独的 Android 活动在 2025 年 Google I/O 之前举行，而 I/O 主题演讲继续强调如 Gemini 等 AI 进展。此举将 Android 更新与主要开发者大会解耦。
 
-rss · Latent Space · May 12, 04:33
+rss · 少数派 · May 13, 00:10
 
-**背景**: 传统语音 AI 系统依赖语音活动检测（VAD）来判断用户何时开始或停止说话，这会引入延迟和不自然的停顿。混合专家（MoE）模型每次输入仅激活部分参数，使更大的模型能够高效运行。Thinking Machines 的新交互模型使交互性成为原生能力，意味着模型本身处理轮次切换，无需独立的 VAD 组件。
+**背景**: Google I/O 是该公司年度开发者大会，传统上用于发布主要 Android 版本和硬件。近年来，谷歌日益推行“AI 优先”战略，使 AI 成为各产品的优先项。通过分离 Android，谷歌可以将更多 I/O 舞台时间用于 AI 突破。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.creativeainews.com/articles/thinking-machines-tml-interaction-full-duplex-voice-ai/">Thinking Machines TML - Interaction : Full-Duplex Voice AI</a></li>
-<li><a href="https://pasqualepillitteri.it/en/news/2374/thinking-machines-interaction-models-mira-murati">Thinking Machines Interaction Models : Mira Murati's full-duplex...</a></li>
-<li><a href="https://picovoice.ai/blog/complete-guide-voice-activity-detection-vad/">Voice Activity Detection Guide 2026: Complete Technical Overview</a></li>
+<li><a href="https://io.google/">Google I/O 2026</a></li>
+<li><a href="https://online.hbs.edu/blog/post/ai-first">How to Create an AI-First Company</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#voice interaction`, `#realtime systems`, `#machine learning models`
-
----
-
-<a id="item-30"></a>
-## [AI 智能体方法 DRIL 自动化构建经济数据集](https://feeds.feedblitz.com/~/955775837/0/marginalrevolution~Using-agents-to-build-economic-datasets.html) ⭐️ 7.0/10
-
-研究人员提出了循环深度研究（DRIL）方法，该方法利用 AI 智能体自动从公开来源构建经济数据集，相关成果发表在 NBER 工作论文 W35188 中。 DRIL 大幅降低了实证经济学中构建原始数据集的成本和时间，有望加速研究进程并支持更大规模的研究。 DRIL 在映射的单位空间（如国家×年份）上应用固定的研究工具，并采用将设计与实施分离的两阶段架构。
-
-rss · Marginal Revolution · May 12, 04:26
-
-**背景**: 从原始来源构建数据集是实证经济学中成本最高的任务之一，通常需要大量人工工作。AI 智能体能够自主执行网络爬取和数据提取等任务，为此提供了潜在解决方案。DRIL 通过定义可重复的方法来系统化这一过程。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.nber.org/papers/w35188">Deep Research on a Loop: Using AI Agents to Construct ...</a></li>
-<li><a href="https://letsdatascience.com/news/researchers-propose-dril-method-to-automate-dataset-construc-73e5ebc1">Researchers Propose DRIL Method to Automate Dataset ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区评论对数据可靠性和 AI 生成数据集的质量表示担忧，一些人质疑在没有人工验证的情况下输出结果是否可信。
-
-**标签**: `#AI agents`, `#economic datasets`, `#methodology`, `#Deep Research`, `#empirical economics`
+**标签**: `#Google`, `#Android`, `#AI`, `#I/O`, `#tech strategy`
 
 ---
