@@ -3,7 +3,7 @@
 _Auto-generated from `data/config.json` by `.github/workflows/sources-md.yml`._
 _Do not edit by hand — edit `data/config.json` instead._
 
-Last regenerated: `2026-05-13 12:18 UTC`
+Last regenerated: `2026-05-13 13:02 UTC`
 
 ## AI
 
