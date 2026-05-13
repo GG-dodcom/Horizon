@@ -27,20 +27,12 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Inject Telegram chat ID into config
-        # chat_id is not sensitive, but storing it as a GH secret keeps the
-        # committed config.json clean and re-usable across forks.
-        env:
-          TG_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID_HORIZON }}
-        run: |
-          jq --arg cid "$TG_CHAT_ID" '.webhook.request_body.chat_id = $cid' data/config.json > /tmp/c.json
-          mv /tmp/c.json data/config.json
-          jq '.webhook.request_body.chat_id' data/config.json
-
       - name: Run Horizon
+        # Horizon's built-in webhook is disabled (data/config.json: webhook.enabled=false).
+        # Telegram delivery is handled by scripts/send_tg_brief.py below after
+        # Pages is deployed, so the linked URL works immediately.
         env:
-          DEEPSEEK_API_KEY:             ${{ secrets.DEEPSEEK_API_KEY }}
-          TELEGRAM_WEBHOOK_URL_HORIZON: ${{ secrets.TELEGRAM_WEBHOOK_URL_HORIZON }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: uv run horizon --hours 48
 
       - name: Set current date as environment variable
@@ -55,3 +47,12 @@ jobs:
           commit_message: "📝 Daily Summary: ${{ env.DATE }}"
           publish_branch: gh-pages
           enable_jekyll: true
+
+      - name: Send brief TOC to Telegram
+        # Runs AFTER Pages deploy so the linked URL is live when user taps it.
+        env:
+          TELEGRAM_WEBHOOK_URL_HORIZON: ${{ secrets.TELEGRAM_WEBHOOK_URL_HORIZON }}
+          TELEGRAM_CHAT_ID_HORIZON:     ${{ secrets.TELEGRAM_CHAT_ID_HORIZON }}
+          PAGES_BASE:                   https://gg-dodcom.github.io/Horizon
+          TG_LANG:                      zh
+        run: python scripts/send_tg_brief.py
