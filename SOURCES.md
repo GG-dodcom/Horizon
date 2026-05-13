@@ -3,7 +3,7 @@
 _Auto-generated from `data/config.json` by `.github/workflows/sources-md.yml`._
 _Do not edit by hand — edit `data/config.json` instead._
 
-Last regenerated: `2026-05-13 13:02 UTC`
+Last regenerated: `2026-05-13 14:42 UTC`
 
 ## AI
 
@@ -12,7 +12,7 @@ Last regenerated: `2026-05-13 13:02 UTC`
 
 ## Filtering
 
-- `ai_score_threshold`: **6.5**
+- `ai_score_threshold`: **7.0**
 - `time_window_hours`: 24
 
 ## RSS
